@@ -2,13 +2,622 @@
   .curso-main-container.pb-3
     BannerInterno
     .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-      .titulo-principal.color-acento-contenido
+      .titulo-principal.color-acento-contenido(data-aos="flip-up")
         .titulo-principal__numero
           span 2
-        h1 Titulo de primer nivel
+        h1 Creación <em>web</em>
+      .bg-full-width.bg-color-3
+        .px-4.px-md-5.py-4
+          p.mb-5(data-aos="fade-right") La creación o desarrollo de sitios web trasciende el concepto tradicional de diseño, ya que integra dimensiones técnicas, estratégicas y funcionales que convergen para producir un entorno digital coherente. Este proceso combina estructura, programación, experiencia de usuario y objetivos corporativos con el fin de construir un producto que cumpla características definidas: calidad estética, adecuada navegabilidad y funcionalidad eficiente.
+          .row.justify-content-center
+            .col-lg-8
+              .row.justify-content-center.align-items-center.mb-5
+                .col-lg-6.mb-3.order-lg-2
+                  figure
+                    img(src="@/assets/curso/tema2/1.png", data-aos="zoom-in")
+                .col-lg-6.order-lg-1
+                  .bg-color-1.p-5
+                    p.mb-0 Un diseño óptimo no se limita a la integración de contenido visual ni a la aplicación de principios de <em>UX (User Experience)</em>.
+          p.mb-5(data-aos="fade-left") También depende de la definición previa de objetivos por parte del cliente y de su alineación con la estrategia global de la empresa. En este contexto, herramientas como <em>Google Analytics</em> orientan la toma de decisiones mediante el análisis de métricas y comportamiento de usuarios.
+          .row.justify-content-center
+            .col-lg-8
+              .row.justify-content-center.align-items-center.mb-5
+                .col-lg-6.mb-3.order-lg-2
+                  figure
+                    img(src="@/assets/curso/tema2/2.png", data-aos="zoom-in")
+                .col-lg-6.order-lg-1
+                  .bg-color-1.p-5
+                    p.mb-0 Además, la construcción de páginas web incorpora la producción estratégica de contenido, elemento que adquiere creciente relevancia al constituirse como un recurso clave para la fidelización de usuarios y el posicionamiento digital.
+          separador
+          #t_2_1.titulo-segundo.color-acento-contenido(data-aos="flip-up")
+            h2 2.1 Diseño <em>web</em>
+      .bloque-texto-g.bloque-texto-g--inverso.color-acento-contenido.p-3.p-sm-4.p-md-5.mb-5(data-aos="fade-right")
+        .bloque-texto-g__img(
+          :style="{ backgroundImage: `url(${require_src('@/assets/curso/tema2/3.png')})` }")
+        .bloque-texto-g__texto.p-4
+          p.mb-0 Desde el punto de vista técnico, el diseño web se relaciona con el uso de lenguajes de marcado como <em>HTML</em> y <em>XML</em>. Según el <em>World Wide Web Consortium (W3C)</em>, el diseñador <em>web</em> estructura las páginas mediante estos lenguajes, mientras que el <em>CSS</em> permite definir la presentación visual y configurar el <em>layout</em>. El desarrollo de un sitio <em>web</em> requiere seguir un proceso estructurado en fases sucesivas. Cuando estas etapas se ejecutan adecuadamente, se favorece la coherencia técnica y estratégica del resultado final.
+      .row.mb-5.align-items-center.justify-content-center
+        .col-md-8.col-lg-4.mb-3.mb-lg-0
+          figure
+            img(src="@/assets/curso/tema2/4.png", data-aos="zoom-in")
+        .col-lg-8(data-aos="fade-left")
+          AcordionA(tipo="a" clase-tarjeta="tarjeta bg-color-9")
+            div(titulo="Contacto inicial")
+              p.ms-5.mb-0 Reunión preliminar, definición de objetivos, elaboración del <em>briefing</em>, delimitación del alcance y análisis de <em>benchmarking</em>.
+            div(titulo="Planificación")
+              p.ms-5.mb-0 Construcción del mapa de navegación, elaboración del <em>wireframe</em> y definición de la experiencia de usuario <em>(UX)</em>.
+            div(titulo="Concepto")
+              p.ms-5.mb-0 Desarrollo del esquema general de contenidos y organización temática.
+            div(titulo="Diseño")
+              p.ms-5.mb-0 Incorporación de elementos visuales y creación de <em>mockups</em>.
+            div(titulo="Desarrollo")
+              p.ms-5.mb-0 Definición del <em>CMS</em>, selección de lenguajes de programación, maquetación, optimización de velocidad, compatibilidad móvil, pruebas técnicas e integración de herramientas como <em>Google Analytics</em> y <em>Search Console</em>.
+            div(titulo="Lanzamiento")
+              p.ms-5.mb-0 Ajustes finales, publicación e indexación en motores de búsqueda.
+      p(data-aos="fade-right") Este proceso garantiza que el producto final no solo cumpla criterios estéticos, sino también técnicos y estratégicos.
+      separador
+      #t_2_2.titulo-segundo.color-acento-contenido(data-aos="flip-up")
+        h2 2.2 Arquitectura y diagramación <em>web</em>
+      .row.justify-content-center.align-items-center.mb-5
+        .col-lg-4.mb-3.order-lg-2
+          figure
+            img(src="@/assets/curso/tema2/5.png", data-aos="zoom-in")
+        .col-lg-8.order-lg-1
+          .bg-color-1.px-5.py-4.mb-3
+            p.mb-0 El diseño y la arquitectura de la información de un sitio <em>web</em> constituyen “el resultado de la actividad de clasificar, describir, estructurar y etiquetar los contenidos del sitio” (Leyva, Alarcón, Barrera & Ortegón, 2017). Esta disciplina permite organizar los contenidos de manera lógica y funcional, asegurando que el sitio responda tanto a las necesidades del negocio como a las expectativas del usuario.
+          p La arquitectura <em>web</em> implica coordinar la integración de múltiples sistemas tecnológicos, entre ellos servidores, bases de datos, redes, componentes de seguridad y mecanismos de respaldo. El arquitecto <em>web</em> diseña esta estructura para garantizar estabilidad, escalabilidad y eficiencia.
+      .bg-full-width.bg-fondo-1
+        .px-4.px-md-5.py-4
+          SlyderF.mb-5(columnas="col-lg-6 col-xl-4")
+            .tarjeta.bg-color-white.p-4
+              .row.justify-content-center.mb-3
+                .col-6
+                  img(src='@/assets/curso/tema2/6.svg' alt='')
+              h2.text-center Servidores
+              p.text-center Gestionan y distribuyen los recursos del sitio.
+            .tarjeta.bg-color-white.p-4
+              .row.justify-content-center.mb-3
+                .col-6
+                  img(src='@/assets/curso/tema2/7.svg' alt='')
+              h2.text-center Bases de datos
+              p.text-center Almacenan y organizan la información estructurada.
+            .tarjeta.bg-color-white.p-4
+              .row.justify-content-center.mb-3
+                .col-6
+                  img(src='@/assets/curso/tema2/8.svg' alt='')
+              h2.text-center Redes
+              p.text-center Permiten la comunicación entre sistemas y usuarios.
+            .tarjeta.bg-color-white.p-4
+              .row.justify-content-center.mb-3
+                .col-6
+                  img(src='@/assets/curso/tema2/9.svg' alt='')
+              h2.text-center <em>HTML</em>
+              p.text-center Lenguaje de marcado que estructura el contenido.
+            .tarjeta.bg-color-white.p-4
+              .row.justify-content-center.mb-3
+                .col-6
+                  img(src='@/assets/curso/tema2/10.svg' alt='')
+              h2.text-center Componentes de seguridad y respaldo
+              p.text-center Protegen la información y garantizan la continuidad operativa.
+            .tarjeta.bg-color-white.p-4
+              .row.justify-content-center.mb-3
+                .col-6
+                  img(src='@/assets/curso/tema2/11.svg' alt='')
+              h2.text-center Inteligencia de contenidos
+              p.text-center Optimiza la organización y recuperación de información.
+            .tarjeta.bg-color-white.p-4
+              .row.justify-content-center.mb-3
+                .col-6
+                  img(src='@/assets/curso/tema2/12.svg' alt='')
+              h2.text-center <em>Interlinking</em>
+              p.text-center Define la organización de enlaces internos entre páginas.
+          p Por su parte, la diagramación <em>web</em> consiste en la representación estructural de los contenidos y sus relaciones. Históricamente, esta representación se desarrolló mediante organigramas, diagramas de flujo de datos y árboles de decisión.
+      .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mb-5(data-aos="fade-left")
+        .bloque-texto-g__img(
+          :style="{ backgroundImage: `url(${require_src('@/assets/curso/tema2/13.png')})` }")
+        .bloque-texto-g__texto.p-4
+          p.mb-0 Con la evolución de las interfaces gráficas de usuario, surgieron herramientas como los guiones de navegación y guiones de interacción, que describen el funcionamiento de los productos digitales. Asimismo, durante el proceso de arquitectura de la información se emplean técnicas como el <em>card sorting</em>, que puede generar dendrogramas y gráficos de escalamiento multidimensional, así como dinámicas de <em>brainstorming</em> para representar estructuras mentales de los usuarios.
+      p.mb-5(data-aos="fade-right") En conclusión, la creación <em>web</em> integra diseño, arquitectura, estrategia y tecnología. La adecuada organización de contenidos y sistemas garantiza que el sitio no solo cumpla una función estética, sino que responda de manera eficiente a objetivos empresariales y necesidades de los usuarios.
+      .row.justify-content-center
+        .col-lg-10
+          .bg-color-2.mb-5(data-aos="fade-up")
+            .row.justify-content-center.align-items-center
+              .col-lg-auto.order-lg-2
+                figure
+                  img(src='@/assets/curso/tema2/14.png', alt='')
+              .col-lg.order-lg-1
+                .p-4
+                  p.mb-0(data-aos="fade-up") Los autores angloparlantes pioneros en diseño y representación de <em>software</em> dividen los diagramas de arquitectura de información en dos grandes tipos: <em>Blueprints</em> y <em>Wireframes</em> (<em>Morville & Rosenfeld, 1998</em>). En algunos contextos, el término <em>Blueprint</em> se sustituye por <em>Architecture Map</em>, que significa mapa de arquitectura.
+      .titulo-con-imagen.mb-5(data-aos="fade-right")
+        .titulo-con-imagen__fondo
+          img.titulo-con-imagen__imagen(src="@/assets/componentes/1.png")
+          h3.titulo-con-imagen__texto <em>Blueprints</em>
+      p(data-aos="fade-right") Los <em>Blueprints</em> son diagramas que representan las principales áreas de organización y rotulado del producto digital (Rosenfeld & Morville, 1998). Se enfocan en los aspectos estructurales y de funcionamiento general.
+      p.mb-5(data-aos="fade-left") Generalmente se elaboran mediante textos, cajas y flechas. Su estructura parte de lo general a lo particular y de lo abstracto a lo concreto. Su función consiste en explicitar de manera iterativa las decisiones de diseño, con el propósito de comunicarlas al equipo de desarrollo o al cliente final. Christina Wodtke (2002) conceptualiza el <em>Blueprint</em> como: “Un plano de diseño es justamente una buena idea llevada a la realidad a través de la escritura”.
+      .row.justify-content-center.mb-5(data-aos="fade-down")
+        .col-lg-3.mb-3.mb-lg-0
+          .bg-color-9.tarjeta.text-center.p-4.h-100
+            h5 Enfoque
+            p.mb-0 Estructural y organizativo.
+        .col-lg-3.mb-3.mb-lg-0
+          .bg-color-9.tarjeta.text-center.p-4.h-100
+            h5 Representación
+            p.mb-0 Textos, cajas y flechas.
+        .col-lg-3.mb-3.mb-lg-0
+          .bg-color-9.tarjeta.text-center.p-4.h-100
+            h5 Nivel de abstracción
+            p.mb-0 De lo general a lo particular.
+        .col-lg-3.mb-3.mb-lg-0
+          .bg-color-9.tarjeta.text-center.p-4.h-100
+            h5 Propósito
+            p.mb-0 Comunicar decisiones de diseño y organización.
+      .titulo-con-imagen.mb-5(data-aos="fade-right")
+        .titulo-con-imagen__fondo
+          img.titulo-con-imagen__imagen(src="@/assets/componentes/1.png")
+          h3.titulo-con-imagen__texto Maquetas y niveles de prototipado
+      p.mb-5(data-aos="fade-right") En el proceso de diseño <em>web</em>, las maquetas constituyen representaciones progresivas del producto digital. Estas pueden clasificarse según su nivel de fidelidad.
+      .row.justify-content-center
+        .col-lg-10
+          .bg-color-2.mb-5(data-aos="fade-up")
+            .row.justify-content-center.align-items-center
+              .col-lg-auto.order-lg-2
+                figure
+                  img(src='@/assets/curso/tema2/15.png', alt='')
+              .col-lg.order-lg-1
+                .p-4
+                  ul.lista-ul--color.ms-3
+                    li.mb-3.d-flex
+                      i.fas.fa-circle-check.bg-color-11
+                      p.mb-0 <b>Baja fidelidad o estáticos</b>. Representaciones iniciales que esquematizan la estructura básica del sitio.
+                    li.mb-3.d-flex
+                      i.fas.fa-circle-check.bg-color-11
+                      p.mb-0 <b>Fidelidad intermedia</b>. Incorporan diseño gráfico y elementos visuales más desarrollados. 
+                    li.mb-3.d-flex
+                      i.fas.fa-circle-check.bg-color-11
+                      p.mb-0 <b>Alta fidelidad o dinámicos</b>. Corresponden al producto casi final o funcional en entorno HTML.
+      p.mb-5(data-aos="fade-left") Dentro de estos niveles se encuentran las siguientes representaciones:
+      .bg-full-width.bg-fondo-slider.mb-5
+        .p-4.p-lg-5
+          SlyderA(tipo="b").bg-color-white.p-4.tarjeta
+            .row.justify-content-center.align-items-center.p-3.p-lg-4
+              .col-lg-5.mb-3.mb-lg-0.order-lg-2
+                figure
+                  img(src='@/assets/curso/tema2/16.png', alt='')
+              .col-lg-5.mb-4.mb-md-0.order-lg-1
+                h4 <em>Wireframe</em>
+                p.mb-0 Boceto preliminar del sitio <em>web</em> que puede elaborarse con lápiz y papel o mediante herramientas digitales. Representa, a través de recuadros, líneas y trazos, la estructura del contenido, la interfaz, el sistema de navegación y el funcionamiento general de la página. Se centra en la organización y jerarquía de los elementos, sin incluir aún detalles gráficos definitivos.
+            .row.justify-content-center.align-items-center.p-3.p-lg-4
+              .col-lg-5.mb-3.mb-lg-0.order-lg-2
+                figure
+                  img(src='@/assets/curso/tema2/17.png', alt='')
+              .col-lg-5.mb-4.mb-md-0.order-lg-1
+                h4 <em>Mockup</em>
+                p.mb-0 Fase posterior al <em>wireframe</em>. Presenta una versión más detallada del diseño en la que se definen dimensiones, distribución de elementos, tipografía, imágenes, iconos y logotipos. Incorpora componentes gráficos que permiten aproximarse con mayor precisión al resultado final.
+            .row.justify-content-center.align-items-center.p-3.p-lg-4
+              .col-lg-5.mb-3.mb-lg-0.order-lg-2
+                figure
+                  img(src='@/assets/curso/tema2/18.png', alt='')
+              .col-lg-5.mb-4.mb-md-0.order-lg-1
+                h4 <em>Prototipo dinámico</em>
+                p.mb-0 Representación de alta fidelidad correspondiente a la página <em>web</em> en formato <em>HTML</em> con interacción funcional. Permite evaluar el comportamiento, la navegación y la respuesta del sistema antes de su lanzamiento definitivo.
+            .row.justify-content-center.align-items-center.p-3.p-lg-4
+              .col-lg-5.mb-3.mb-lg-0.order-lg-2
+                figure
+                  img(src='@/assets/curso/tema2/19.png', alt='')
+              .col-lg-5.mb-4.mb-md-0.order-lg-1
+                h4 <em>Frameworks</em>
+                p.mb-0 Estructura base utilizada como punto de partida para desarrollar proyectos con objetivos específicos. Funciona como plantilla o esquema conceptual que simplifica el proceso de desarrollo al ofrecer componentes predefinidos adaptables a las necesidades del proyecto.
+            .row.justify-content-center.align-items-center.p-3.p-lg-4
+              .col-lg-5.mb-3.mb-lg-0.order-lg-2
+                figure
+                  img(src='@/assets/curso/tema2/20.png', alt='')
+              .col-lg-5.mb-4.mb-md-0.order-lg-1
+                h4 <em>Frontend</em>
+                p Parte de la aplicación que interactúa directamente con el usuario. Corresponde al lado del cliente y define la presentación de los elementos y el comportamiento de la interacción. Incluye tipografías, colores, adaptación a distintas pantallas mediante diseño adaptable <em>(Responsive Web Design o RWD)</em>, efectos de interacción y desplazamientos.
+                h4 Lenguajes del <em>frontend</em>
+                p.mb-0 <em>HTML5</em> (estructura del contenido), <em>CSS3</em> (estilización y diseño visual), <em>JavaScript</em> (interactividad y comportamiento dinámico), <em>jQuery</em> (biblioteca que facilita el uso de JavaScript) y <em>Ajax</em> (comunicación asíncrona con el servidor sin recargar la página).
+      separador
+      #t_2_3.titulo-segundo.color-acento-contenido(data-aos="flip-up")
+        h2 2.3 <em>Software</em> para hacer diagramas
+      p.mb-5(data-aos="fade-right") El diseño de diagramas puede realizarse mediante plataformas o herramientas digitales especializadas. Para facilitar su comprensión, estas aplicaciones pueden clasificarse en dos grupos: aquellas creadas específicamente para diagramación y aquellas que, aunque fueron concebidas con otros fines, permiten desarrollar diagramas gracias a sus capacidades gráficas avanzadas. A continuación, se presentan programas diseñados originalmente para la elaboración de diagramas:
+      .row.mb-5.align-items-center.justify-content-center
+        .col-md-8.col-lg-4.mb-3.mb-lg-0
+          figure
+            img(src="@/assets/curso/tema2/21.png", data-aos="zoom-in")
+        .col-lg-8(data-aos="fade-left")
+          AcordionA(tipo="a" clase-tarjeta="tarjeta bg-color-9")
+            div(titulo="<em>SmartDraw</em>")
+              p.ms-5.mb-0 Herramienta especializada en diagramas, organigramas y mapas conceptuales. Ofrece plantillas prediseñadas y automatización de estructuras.
+            div(titulo="<em>Microsoft Visio</em>")
+              p.ms-5.mb-0 Aplicación profesional para la creación de diagramas técnicos, flujogramas y modelado de procesos empresariales.
+            div(titulo="<em>iGrafx FlowCharter</em>")
+              p.ms-5.mb-0 Orientado a la elaboración de diagramas de flujo y modelado de procesos organizacionales.
+            div(titulo="<em>MindManager</em>")
+              p.ms-5.mb-0 Programa enfocado en mapas mentales y organización visual de información compleja.
+            div(titulo="<em>FreeMind</em>")
+              p.ms-5.mb-0 Aplicación de código abierto para la creación de mapas mentales y esquemas jerárquicos.
+            div(titulo="<em>OmniGraffle</em>")
+              p.ms-5.mb-0 Programa para <em>macOS</em> especializado en diagramas, esquemas técnicos y estructuras visuales.
+      p.mb-5(data-aos="fade-right") Estas herramientas permiten representar arquitecturas de información, flujos de navegación, estructuras organizativas y procesos técnicos mediante recursos gráficos estructurados.
+      .titulo-con-imagen.mb-5(data-aos="fade-right")
+        .titulo-con-imagen__fondo
+          img.titulo-con-imagen__imagen(src="@/assets/componentes/1.png")
+          h3.titulo-con-imagen__texto Aplicaciones no especializadas para diagramación
+      p.mb-5(data-aos="fade-right") Además de los programas diseñados específicamente para crear diagramas, existen herramientas de diseño gráfico que, aunque no fueron concebidas exclusivamente para diagramación, permiten desarrollar esquemas estructurales gracias a sus amplias capacidades vectoriales. A continuación, se presentan algunos ejemplos:
+      .row.mb-5.justify-content-center
+        .col-sm-6.col-lg-4.mb-4.mb-lg-0(data-aos="fade-up")
+          //- .tarjeta--boton debe ir acompañado de una de una de estas clases => 
+          //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
+          //- estas clases tambien tienen un modificador --borde
+          .tarjeta--boton.bg-color-12.h-100.p-4
+            .row.justify-content-center.mb-3
+              .col-4
+                figure
+                  img(src='@/assets/curso/tema2/22.png', alt='')
+            h3.mb-4.text-center <em>CorelDRAW</em>
+            p.text-center Programa de diseño vectorial que permite crear diagramas, organigramas y estructuras visuales mediante herramientas de dibujo y alineación.
+        .col-sm-6.col-lg-4.mb-4.mb-lg-0(data-aos="fade-down")
+          //- .tarjeta--boton debe ir acompañado de una de una de estas clases => 
+          //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
+          //- estas clases tambien tienen un modificador --borde
+          .tarjeta--boton.bg-color-12.h-100.p-4
+            .row.justify-content-center.mb-3
+              .col-4
+                figure
+                  img(src='@/assets/curso/tema2/23.png', alt='')
+            h3.mb-4.text-center <em>Adobe FreeHand</em>
+            p.text-center Editor vectorial originalmente desarrollado por Macromedia y posteriormente por Adobe. Permitía la elaboración de esquemas y representaciones gráficas estructuradas.
+        .col-sm-6.col-lg-4.mb-4.mb-lg-0(data-aos="fade-up")
+          //- .tarjeta--boton debe ir acompañado de una de una de estas clases => 
+          //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
+          //- estas clases tambien tienen un modificador --borde
+          .tarjeta--boton.bg-color-12.h-100.p-4
+            .row.justify-content-center.mb-3
+              .col-4
+                figure
+                  img(src='@/assets/curso/tema2/24.png', alt='')
+            h3.mb-4.text-center <em>Adobe Illustrator</em>
+            p.text-center Herramienta profesional de diseño vectorial que facilita la construcción de diagramas complejos mediante formas, capas y guías de alineación.
+      separador
+      #t_2_4.titulo-segundo.color-acento-contenido(data-aos="flip-up")
+        h2 2.4 Maquetación <em>web</em>
+      p.mb-5(data-aos="fade-right") La maquetación <em>web</em> se inicia con la construcción del mapa de navegación, donde se planifica el contenido y la organización de cada página y subpágina del sitio. Consiste en definir, organizar y posicionar los contenidos dentro de una estructura que favorezca la lectura, la claridad informativa y una experiencia de usuario coherente. Este proceso requiere conocimientos técnicos en lenguajes de programación y estándares web. Para desarrollar adecuadamente la maquetación, se deben considerar los siguientes aspectos:
+      .bg-full-width.bg-fondo-slider.mb-5
+        .p-4.p-lg-5
+          SlyderA(tipo="b").bg-color-white.p-4.tarjeta
+            .row.justify-content-center.align-items-center.p-3.p-lg-4
+              .col-lg-5.mb-3.mb-lg-0.order-lg-2
+                figure
+                  img(src='@/assets/curso/tema2/25.png', alt='')
+              .col-lg-5.mb-4.mb-md-0.order-lg-1
+                h4 Definición de zonas de trabajo
+                p.mb-0 Establecer áreas estructurales que soporten el contenido del sitio y faciliten futuras actualizaciones, atendiendo a las necesidades reales de la arquitectura de información.
+            .row.justify-content-center.align-items-center.p-3.p-lg-4
+              .col-lg-5.mb-3.mb-lg-0.order-lg-2
+                figure
+                  img(src='@/assets/curso/tema2/26.png', alt='')
+              .col-lg-5.mb-4.mb-md-0.order-lg-1
+                h4 Separación entre contenido y presentación
+                p.mb-0 Diferenciar los archivos de contenido de los archivos que definen propiedades gráficas (.css). Esta práctica facilita el mantenimiento, optimiza la velocidad de carga y permite la personalización.
+            .row.justify-content-center.align-items-center.p-3.p-lg-4
+              .col-lg-5.mb-3.mb-lg-0.order-lg-2
+                figure
+                  img(src='@/assets/curso/tema2/27.png', alt='')
+              .col-lg-5.mb-4.mb-md-0.order-lg-1
+                h4 Uso de estándares <em>web</em>
+                p.mb-0 Aplicar recomendaciones lideradas por el <em>World Wide Web Consortium (W3C)</em>, garantizando accesibilidad universal, robustez técnica y compatibilidad con distintos dispositivos y tecnologías.
+      p.mb-0(data-aos="fade-right") Asimismo, en la maquetación <em>web</em> es fundamental considerar la interfaz gráfica de usuario o <em>GUI (Graphic User Interface)</em>, entendida como el entorno visual mediante el cual el usuario interactúa con el sistema. La <em>GUI</em> integra imágenes, iconos, botones y demás objetos gráficos que permiten acceder a funcionalidades y comprender la información presentada en pantalla.
+      separador
+      #t_2_5.titulo-segundo.color-acento-contenido(data-aos="flip-up")
+        h2 2.5 Lenguajes de programación para <em>frontend</em>
+      p.mb-5(data-aos="fade-right") Para introducir los lenguajes de programación más utilizados en el diseño <em>web</em>, es necesario definir primero el <em>frontend</em> como parte fundamental del desarrollo <em>web</em>.
+      .titulo-con-imagen.mb-5(data-aos="fade-right")
+        .titulo-con-imagen__fondo
+          img.titulo-con-imagen__imagen(src="@/assets/componentes/1.png")
+          h3.titulo-con-imagen__texto Frontend
+      .bloque-texto-g.bloque-texto-g--inverso.color-acento-contenido.p-3.p-sm-4.p-md-5.mb-5(data-aos="fade-left")
+        .bloque-texto-g__img(
+          :style="{ backgroundImage: `url(${require_src('@/assets/curso/tema2/28.png')})` }")
+        .bloque-texto-g__texto.p-4
+          p.mb-0 El <em>frontend</em> hace referencia a la capa de presentación de las aplicaciones, ya que define cómo se presentan los elementos y cómo se comporta la interacción con el usuario. Corresponde a la parte de una aplicación que interactúa directamente con el usuario; es decir, todo lo que aparece en pantalla al acceder a un sitio <em>web</em> o aplicación: tipografías, colores, botones, menús, adaptación a distintas pantallas mediante <em>RWD (Responsive Web Design)</em>, efectos de interacción con ratón y teclado, desplazamientos y demás elementos que configuran la experiencia del usuario.
+      p.mb-5(data-aos="fade-right") El <em>frontend</em> no gestiona directamente bases de datos ni servidores (funciones propias del <em>back-end</em>), pero sí aborda aspectos como la usabilidad, los efectos visuales y la velocidad de carga. Un desarrollador <em>frontend</em> debe dominar, al menos, los siguientes lenguajes y tecnologías:
+      .bg-full-width.bg-fondo-1
+        .px-4.px-md-5.py-4
+          .row.justify-content-center.align-items-center.mb-5
+            .col-lg-3.mb-3.mb-lg-0
+              figure
+                img(src="@/assets/curso/tema2/29.png", data-aos="zoom-in")
+            .col-lg-7(data-aos="fade-left")
+              SlyderF.mb-5(columnas="col-lg-6 col-xl-6")
+                .tarjeta.bg-color-white.p-4
+                  .row.justify-content-center.mb-5
+                    .col-6
+                      img(src='@/assets/curso/tema2/30.svg' alt='')
+                  h2.text-center <em>HTML5</em>
+                  p.text-center Estructura y organización del contenido.
+                .tarjeta.bg-color-white.p-4
+                  .row.justify-content-center.mb-5
+                    .col-6
+                      img(src='@/assets/curso/tema2/31.svg' alt='')
+                  h2.text-center <em>CSS3</em>
+                  p.text-center Definición de estilos y presentación visual.
+                .tarjeta.bg-color-white.p-4
+                  .row.justify-content-center.mb-5
+                    .col-6
+                      img(src='@/assets/curso/tema2/32.svg' alt='')
+                  h2.text-center <em>JavaScript</em>
+                  p.text-center Interactividad y comportamiento dinámico.
+                .tarjeta.bg-color-white.p-4
+                  .row.justify-content-center.mb-5
+                    .col-6
+                      img(src='@/assets/curso/tema2/33.png' alt='')
+                  h2.text-center <em>jQuery</em>
+                  p.text-center Biblioteca que simplifica el uso de <em>JavaScript</em>.
+                .tarjeta.bg-color-white.p-4
+                  .row.justify-content-center.mb-5
+                    .col-6
+                      img(src='@/assets/curso/tema2/34.png' alt='')
+                  h2.text-center <em>Ajax</em>
+                  p.text-center Comunicación asíncrónica con el servidor sin recargar la página.
+          .titulo-con-imagen.mb-5(data-aos="fade-right")
+            .titulo-con-imagen__fondo
+              img.titulo-con-imagen__imagen(src="@/assets/componentes/1.png")
+              h3.titulo-con-imagen__texto <em>HTML</em>
+      p.mb-5(data-aos="fade-left") <em>HTML</em> corresponde a las siglas de <em>Hyper Text Markup Language</em> (Lenguaje de Marcas de Hipertexto). Es el principal lenguaje de marcación utilizado para el desarrollo de páginas <em>web</em>. Se trata de un lenguaje que utilizan las aplicaciones para representar documentos digitales, como páginas <em>web</em>, que pueden transmitirse a través de internet. Los navegadores procesan e interpretan los documentos descritos en <em>HTML</em> mediante analizadores específicos.
+      .bg-full-width.bg-color-3
+        .px-4.px-md-5.py-4
+          .row.justify-content-center
+            .col-lg-10
+              .bg-color-2.mb-5(data-aos="fade-up")
+                .row.justify-content-center.align-items-center
+                  .col-lg-auto.order-lg-2
+                    figure
+                      img(src='@/assets/curso/tema2/35.png', alt='')
+                  .col-lg.order-lg-1
+                    .p-4
+                      p(data-aos="fade-up") El lenguaje <em>HTML</em> se compone de etiquetas, delimitadas por los símbolos < y >, con la siguiente estructura:
+                      .bg-color-black.p-3.tarjeta.mb-2.d-inline-block
+                        span.bg-color-13 &lt;etiqueta&gt;
+                        span.texto-blanco contenido
+                        span.bg-color-13 &lt;/etiqueta&gt;
+                      p Estas etiquetas describen los elementos que se desean estructurar dentro de la página. Por ejemplo:
+                      .bg-color-black.p-3.tarjeta.mb-2
+                        span.bg-color-13 &lt;<em>title</em>&gt;
+                        span.texto-blanco Internet básico, email, descargas y compras en línea
+                        span.bg-color-13 &lt;<em>/title</em>&gt;
+                      p.mb-0 En este caso, la etiqueta &lt;<em>title</em>&gt; indica el título del documento web.
+          p.mb-5(data-aos="fade-left") <em>HTML5</em> también se emplea como término que agrupa tecnologías modernas de desarrollo <em>web: HTML5</em>, <em>CSS3</em> y nuevas capacidades de <em>JavaScript</em>. <em>HTML4</em> y <em>HTML5</em> mantienen compatibilidad estructural.
+          .row.justify-content-center.align-items-stretch.mb-5(data-aos="fade-down")
+            .col-lg-4.col-xl-2.mb-3.mb-xl-0
+              .bg-color-12.h-100.text-center
+                .bg-color-5.p-3.rounded-top.header-container
+                  h4.mb-0 Elemento raíz
+                p.mb-0.p-4 Contiene todo el documento HTML.
+            .col-lg-4.col-xl-2.mb-3.mb-xl-0
+              .bg-color-12.h-100.text-center
+                .bg-color-5.p-3.rounded-top.header-container
+                  h4.mb-0 Metadatos del documento
+                p.mb-0.p-4 Define información sobre el documento (codificación, título, enlaces).
+            .col-lg-4.col-xl-2.mb-3.mb-xl-0
+              .bg-color-12.h-100.text-center
+                .bg-color-5.p-3.rounded-top.header-container
+                  h4.mb-0 Secciones
+                p.mb-0.p-4 Organiza el contenido en bloques estructurales.
+            .col-lg-4.col-xl-2.mb-3.mb-xl-0
+              .bg-color-12.h-100.text-center
+                .bg-color-5.p-3.rounded-top.header-container
+                  h4.mb-0 Agrupación de contenido
+                p.mb-0.p-4 Permite organizar párrafos, listas y contenedores.
+            .col-lg-4.col-xl-2.mb-3.mb-xl-0
+              .bg-color-12.h-100.text-center
+                .bg-color-5.p-3.rounded-top.header-container
+                  h4.mb-0 Semántica a nivel de texto
+                p.mb-0.p-4 Aporta significado estructural al contenido textual.
+          .titulo-con-imagen.mb-5(data-aos="fade-right")
+            .titulo-con-imagen__fondo
+              img.titulo-con-imagen__imagen(src="@/assets/componentes/1.png")
+              h3.titulo-con-imagen__texto CSS
+      p.mb-5(data-aos="fade-left") CSS corresponde a <em>Cascading Style Sheets </em>(Hojas de estilo en cascada). Su función es controlar la apariencia visual del sitio <em>web</em> y permitir una presentación coherente y diferenciada. Las hojas de estilo se superponen siguiendo un modelo jerárquico, aplicando reglas en función de factores como el tamaño y la resolución de la pantalla del dispositivo. Desde su aparición en 1993, HTML ha evolucionado hasta consolidarse como estándar en su versión HTML5. Esta evolución ha sido posible gracias a la integración con CSS, que permite incorporar funcionalidades avanzadas como:
+      .row.justify-content-center
+        .col-lg-8
+          .bg-color-2.mb-5(data-aos="fade-up")
+            .row.justify-content-center.align-items-center
+              .col-lg-auto.order-lg-2
+                figure
+                  img(src='@/assets/curso/tema2/36.svg', alt='')
+              .col-lg.order-lg-1
+                .p-4
+                  ul.lista-ul--color.ms-3
+                    li.mb-3.d-flex
+                      i.fas.fa-circle-check.bg-color-11
+                      p.mb-0 Audio.
+                    li.mb-3.d-flex
+                      i.fas.fa-circle-check.bg-color-11
+                      p.mb-0 Video.
+                    li.mb-3.d-flex
+                      i.fas.fa-circle-check.bg-color-11
+                      p.mb-0 Gráficos SVG.
+                    li.mb-3.d-flex
+                      i.fas.fa-circle-check.bg-color-11
+                      p.mb-0 Adaptación a distintos dispositivos.
+      p(data-aos="fade-right") El código CSS organiza la presentación y define cómo se visualizan los elementos de un documento HTML, separando estructura y diseño para facilitar mantenimiento, optimización y coherencia visual.
+      separador
+      #t_2_6.titulo-segundo.color-acento-contenido(data-aos="flip-up")
+        h2 2.6 Estructuración técnica de un sitio web
+      .bg-full-width.bg-color-3
+        .px-4.px-md-5.py-4
+          .row.justify-content-center.align-items-center.mb-5(data-aos="fade-down")
+            .col-lg-4.mb-3.order-lg-2
+              figure
+                img(src="@/assets/curso/tema2/37.png", data-aos="zoom-in")
+            .col-lg-8.order-lg-1
+              .bg-color-1.p-5
+                p.mb-0 La estructuración técnica de un sitio <em>web</em> constituye un proceso estratégico que integra aspectos conceptuales, temáticos y técnicos. No se trata únicamente de definir una arquitectura organizada, sino de planificar cómo se presentará la temática, cómo se distribuirán los contenidos y de qué manera se garantizará una experiencia de usuario coherente. Sin una adecuada planificación conceptual, resulta imposible consolidar posteriormente una estructura técnica eficiente. 
+          .titulo-con-imagen.mb-5(data-aos="fade-right")
+            .titulo-con-imagen__fondo
+              img.titulo-con-imagen__imagen(src="@/assets/componentes/1.png")
+              h3.titulo-con-imagen__texto Definición clara de la temática y organización del contenido
+          p.mb-5(data-aos="fade-left") Antes de diseñar la estructura técnica, es necesario delimitar la temática central del sitio y organizar los contenidos en categorías y subcategorías coherentes. Esta organización permite establecer jerarquías claras y facilita tanto la navegación del usuario como la indexación por parte de los motores de búsqueda. Una estructura conceptual sólida es la base sobre la cual se construye la arquitectura técnica.
+          .titulo-con-imagen.mb-5(data-aos="fade-right")
+            .titulo-con-imagen__fondo
+              img.titulo-con-imagen__imagen(src="@/assets/componentes/1.png")
+              h3.titulo-con-imagen__texto Construcción de URL amigables para SEO
+          .row.justify-content-center.align-items-center.mb-5
+            .col-lg-4.mb-3.order-lg-2
+              figure
+                img(src="@/assets/curso/tema2/38.png", data-aos="zoom-in")
+            .col-lg-8.order-lg-1
+              .bg-color-12.p-5.mb-3
+                p.mb-0 La creación de un sitio <em>web</em> implica la generación de diferentes URL o direcciones internas que parten de un dominio común. Estas direcciones deben construirse con palabras clave indicativas que describan el contenido de cada página.
+                p Las URL amigables para SEO <em>(Search Engine Optimization)</em> permiten que los motores de búsqueda comprendan mejor la estructura del sitio. Lo primero que analiza Google al rastrear una página es su URL; por ello, esta debe ser clara, descriptiva y coherente con la temática del contenido.
+      .row.mb-5.justify-content-center
+        .col-sm-6.col-lg-4.mb-4.mb-lg-0(data-aos="fade-up")
+          //- .tarjeta--boton debe ir acompañado de una de una de estas clases => 
+          //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
+          //- estas clases tambien tienen un modificador --borde
+          .tarjeta--boton.bg-color-12.h-100.p-4
+            .row.justify-content-center.mb-3
+              .col-4
+                figure
+                  img(src='@/assets/curso/tema2/39.svg', alt='')
+            h3.mb-4.text-center Claridad semántica
+            p.text-center Incluir palabras clave relacionadas con el contenido.
+        .col-sm-6.col-lg-4.mb-4.mb-lg-0(data-aos="fade-down")
+          //- .tarjeta--boton debe ir acompañado de una de una de estas clases => 
+          //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
+          //- estas clases tambien tienen un modificador --borde
+          .tarjeta--boton.bg-color-12.h-100.p-4
+            .row.justify-content-center.mb-3
+              .col-4
+                figure
+                  img(src='@/assets/curso/tema2/40.svg', alt='')
+            h3.mb-4.text-center Estructura jerárquica
+            p.text-center Reflejar la organización de categorías y subcategorías.
+        .col-sm-6.col-lg-4.mb-4.mb-lg-0(data-aos="fade-up")
+          //- .tarjeta--boton debe ir acompañado de una de una de estas clases => 
+          //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
+          //- estas clases tambien tienen un modificador --borde
+          .tarjeta--boton.bg-color-12.h-100.p-4
+            .row.justify-content-center.mb-3
+              .col-4
+                figure
+                  img(src='@/assets/curso/tema2/41.svg', alt='')
+            h3.mb-4.text-center Simplicidad
+            p.text-center Evitar caracteres innecesarios o estructuras complejas.
+      .titulo-con-imagen.mb-5(data-aos="fade-right")
+        .titulo-con-imagen__fondo
+          img.titulo-con-imagen__imagen(src="@/assets/componentes/1.png")
+          h3.titulo-con-imagen__texto <em>Interlinking</em> y mejora de la navegabilidad
+      p.mb-5(data-aos="fade-down") La estructura técnica también exige conectar todas las páginas entre sí para mejorar la navegabilidad y la usabilidad. No se debe depender únicamente del menú principal; es necesario incorporar enlaces internos estratégicos dentro del contenido. Estos enlaces internos cumplen dos funciones principales:
+      .tarjeta--container.row.mb-5
+        //- .tarjeta debe ir acompañado de una de una de estas clases => 
+        //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
+        //- estas clases tambien tienen un modificador --borde
+        .col-md.tarjeta.color-primario.bg-color-7.p-5.text-white
+          .row.justify-content-center.mb-5
+            .col-10
+              figure
+                img(src='@/assets/curso/tema2/42.png', alt='')
+          h2.mb-5 Orientación al usuario
+          p Facilitan el recorrido dentro del sitio y apoyan la toma de decisiones mediante llamadas a la acción.
+        //- .tarjeta debe ir acompañado de una de una de estas clases => 
+        //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
+        //- estas clases tambien tienen un modificador --borde
+        .col-md.tarjeta.color-acento-botones.bg-color-8.p-5
+          .row.justify-content-center.mb-5
+            .col-10
+              figure
+                img(src='@/assets/curso/tema2/43.png', alt='')
+          h2.mb-5 Rastreo por motores de búsqueda
+          p Permiten que <em>Google</em> indexe las páginas de manera más eficiente, mejorando el posicionamiento.
+      p.mb-5(data-aos="fade-right") Una estructura bien conectada optimiza la experiencia del usuario y facilita el trabajo de indexación de los motores de búsqueda. Por ello, la usabilidad y la estructura técnica se encuentran estrechamente relacionadas dentro del diseño web.
+      .titulo-con-imagen.mb-5(data-aos="fade-right")
+        .titulo-con-imagen__fondo
+          img.titulo-con-imagen__imagen(src="@/assets/componentes/1.png")
+          h3.titulo-con-imagen__texto Tipos de medios y plataformas digitales
+      p.mb-5(data-aos="fade-left") El desarrollo tecnológico ha ampliado de manera significativa los conceptos, herramientas y medios asociados a internet. Inicialmente, los sitios web eran accesibles únicamente desde computadores de escritorio; posteriormente surgieron los computadores portátiles y, finalmente, los dispositivos móviles como smartphones (teléfonos inteligentes) y tablets.
+      .bg-full-width.bg-color-3
+        .px-4.px-md-5.py-4
+          .row.justify-content-center
+            .col-lg-8
+              .bg-color-2.mb-5(data-aos="fade-up")
+                .row.justify-content-center.align-items-center
+                  .col-lg-auto.order-lg-2
+                    figure
+                      img(src='@/assets/curso/tema2/44.svg', alt='')
+                  .col-lg.order-lg-1
+                    .p-3
+                      p.mb-0 Este proceso de transformación dio origen al concepto de diseño web responsive o adaptativo, técnica que busca garantizar la correcta adaptación de una misma página en distintos dispositivos, desde ordenadores de escritorio hasta móviles y tablets.
+          p.mb-5(data-aos="fade-right") El diseño responsive no implica que la página conserve exactamente la misma disposición visual en todos los dispositivos, sino que sus elementos se reorganizan y redimensionan para ajustarse al ancho de pantalla disponible, asegurando coherencia funcional y experiencia de usuario adecuada. Se caracteriza por:
+          .row.mb-5.justify-content-center
+            .col-sm-6.col-lg-3.mb-4.mb-lg-0(data-aos="fade-up")
+              //- .tarjeta--boton debe ir acompañado de una de una de estas clases => 
+              //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
+              //- estas clases tambien tienen un modificador --borde
+              .tarjeta--boton.bg-color-12.h-100.p-4
+                .row.justify-content-center.mb-3
+                  .col-10
+                    figure
+                      img(src='@/assets/curso/tema2/45.png', alt='')
+                h5.text-center Uso de layouts fluidos.
+            .col-sm-6.col-lg-3.mb-4.mb-lg-0(data-aos="fade-down")
+              //- .tarjeta--boton debe ir acompañado de una de una de estas clases => 
+              //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
+              //- estas clases tambien tienen un modificador --borde
+              .tarjeta--boton.bg-color-12.h-100.p-4
+                .row.justify-content-center.mb-3
+                  .col-10
+                    figure
+                      img(src='@/assets/curso/tema2/46.png', alt='')
+                h5.text-center Imágenes adaptables.
+            .col-sm-6.col-lg-3.mb-4.mb-lg-0(data-aos="fade-up")
+              //- .tarjeta--boton debe ir acompañado de una de una de estas clases => 
+              //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
+              //- estas clases tambien tienen un modificador --borde
+              .tarjeta--boton.bg-color-12.h-100.p-4
+                .row.justify-content-center.mb-3
+                  .col-10
+                    figure
+                      img(src='@/assets/curso/tema2/47.png', alt='')
+                h5.text-center Implementación de media queries en CSS3.
+          .titulo-con-imagen.mb-5(data-aos="fade-right")
+            .titulo-con-imagen__fondo
+              img.titulo-con-imagen__imagen(src="@/assets/componentes/1.png")
+              h3.titulo-con-imagen__texto La <em>web responsive</em>
+          p.mb-5(data-aos="fade-left") Además de la correcta adaptación visual y navegacional, los sitios <em>web</em> deben responder a exigencias externas relacionadas con servidores, navegadores y motores de búsqueda.
+          .row.justify-content-center
+            .col-lg-10.col-xl-8
+              .bg-color-2.mb-5(data-aos="fade-up")
+                .row.justify-content-center.align-items-center
+                  .col-lg-auto
+                    figure
+                      img(src='@/assets/curso/tema2/48.svg', alt='')
+                  .col-lg
+                    .p-3
+                      p.mb-0 En este contexto, Google ha actualizado sus criterios de clasificación para priorizar sitios optimizados para dispositivos móviles. Si una página no es <em>responsive</em>, puede aparecer en posiciones inferiores en las <em>SERP (Search Engine Results Page)</em> o incluso quedar excluida de resultados móviles.
+      p.mb-5(data-aos="fade-right") La expansión del uso de teléfonos inteligentes transformó la manera en que los usuarios acceden a internet. Actualmente, la conexión a la red se produce en cualquier momento y lugar, lo que amplía el alcance potencial de los sitios web optimizados para móviles. Según Shum (2021), “En la actualidad el 70 % del tráfico de internet proviene de teléfonos móviles”.
+      .titulo-con-imagen.mb-5(data-aos="fade-right")
+        .titulo-con-imagen__fondo
+          img.titulo-con-imagen__imagen(src="@/assets/componentes/1.png")
+          h3.titulo-con-imagen__texto Ventajas de tener un sitio <em>web responsive</em>
+      p.mb-5(data-aos="fade-right") La incorporación del diseño <em>responsive</em> impacta directamente en las estrategias de <em>marketing</em> digital y en los resultados obtenidos.
+      .row.mb-5.align-items-center.justify-content-center
+        .col-md-8.col-lg-4.mb-3.mb-lg-0
+          figure
+            img(src="@/assets/curso/tema2/49.png", data-aos="zoom-in")
+        .col-lg-8(data-aos="fade-left")
+          AcordionA(tipo="a" clase-tarjeta="tarjeta bg-color-9")
+            div(titulo="Mejor SEO")
+              p.ms-5.mb-0 Utiliza la misma URL y estructura HTML para todos los dispositivos, facilitando la indexación por parte de los motores de búsqueda y mejorando el posicionamiento orgánico.
+            div(titulo="No requiere doble diseño")
+              p.ms-5.mb-0 No es necesario desarrollar versiones independientes para escritorio y móvil, lo que optimiza tiempo y recursos.
+            div(titulo="Administración simplificada")
+              p.ms-5.mb-0 Las actualizaciones se reflejan en todos los dispositivos, reduciendo costos operativos y de mantenimiento.
+            div(titulo="Mayor alcance de audiencia")
+              p.ms-5.mb-0 Permite llegar a usuarios que acceden desde múltiples dispositivos, ampliando la cobertura digital.
+      p.mb-0(data-aos="fade-right") En conclusión, el diseño <em>web responsive</em> constituye una estrategia técnica y comunicativa indispensable en el entorno digital actual. Garantiza adaptabilidad, mejora el posicionamiento en buscadores y optimiza la experiencia del usuario en un contexto donde el acceso móvil predomina.
 
 </template>
-
 <script>
 export default {
   name: 'Tema2',
@@ -25,5 +634,4 @@ export default {
   },
 }
 </script>
-
 <style lang="sass"></style>

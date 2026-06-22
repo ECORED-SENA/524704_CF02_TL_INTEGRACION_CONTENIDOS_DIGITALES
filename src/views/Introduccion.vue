@@ -2,16 +2,21 @@
   .curso-main-container.introduccion
     BannerInterno
     .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-      .titulo-principal.color-acento-contenido
+      .titulo-principal.color-acento-contenido(data-aos="flip-up")
         .titulo-principal__numero
           span
             i.fas.fa-info
         h1 Introducción
-      .row.justify-content-center.align-items-center           
-        .col-lg-12
-          figure
-            .video
-              iframe(width="560" height="315" src="https://www.youtube.com/embed/vdPrCjWJSHo?si=X4NxENRo3LLXAua_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      .bg-color-1.mb-5(data-aos="fade-right")
+        .row.align-items-center
+          .col-lg-auto.order-lg-2
+            img.d-none.d-lg-flex(src="@/assets/curso/intro/1.svg").mx-auto
+          .col-lg.order-lg-1.p-4.px-lg-4
+            p.mb-0 El programa de formación técnica profesional en Desarrollo de imágenes para la interacción digital pretende otorgar al aprendiz SENA los conocimientos necesarios para desarrollar estrategias de planeación y producción de contenidos digitales y multimedia que las MiPymes del país requieren en el contexto de la cuarta revolución industrial. A continuación, le invitamos a revisar el video de introducción frente a este tema:
+      figure(data-aos="fade-left")
+        .video.mb-2
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/OjeCvBSr4DM?si=sjweueoSx3pq_bfR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        figcaption Video: Leyenda del video
 
 </template>
 
