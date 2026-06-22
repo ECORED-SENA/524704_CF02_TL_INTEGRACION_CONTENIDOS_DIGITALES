@@ -16,7 +16,7 @@
       figure(data-aos="fade-left")
         .video.mb-2
           iframe(width="560" height="315" src="https://www.youtube.com/embed/OjeCvBSr4DM?si=sjweueoSx3pq_bfR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-        figcaption.fw-normal #[b Video:] Producción de contenidos digitales: introducción
+        figcaption.fw-normal #[b Video:] producción de contenidos digitales: introducción.
 
 </template>
 
