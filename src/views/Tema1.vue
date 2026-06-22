@@ -589,7 +589,7 @@
       figure.mb-5
         .video.mb-2
           iframe(width="560" height="315" src="https://www.youtube.com/embed/f1fJ4lm9O_A?si=V084j2EySB0iM_vS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-        figcaption Video: Leyenda del video
+        figcaption.fw-normal #[b Video:] Producción de contenidos digitales: montaje audiovisual
       .row.justify-content-center.mb-5
         .col-lg-10
           .bg-color-4.mb-5(data-aos="fade-up")
