@@ -5,7 +5,7 @@
       .titulo-principal.color-acento-contenido(data-aos="flip-up")
         .titulo-principal__numero
           span 2
-        h1 Creación <em>web</em>
+        h1 Creación web
       .bg-full-width.bg-color-3
         .px-4.px-md-5.py-4
           p.mb-5(data-aos="fade-right") La creación o desarrollo de sitios web trasciende el concepto tradicional de diseño, ya que integra dimensiones técnicas, estratégicas y funcionales que convergen para producir un entorno digital coherente. Este proceso combina estructura, programación, experiencia de usuario y objetivos corporativos con el fin de construir un producto que cumpla características definidas: calidad estética, adecuada navegabilidad y funcionalidad eficiente.
@@ -30,12 +30,12 @@
                     p.mb-0 Además, la construcción de páginas web incorpora la producción estratégica de contenido, elemento que adquiere creciente relevancia al constituirse como un recurso clave para la fidelización de usuarios y el posicionamiento digital.
           separador
           #t_2_1.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-            h2 2.1 Diseño <em>web</em>
+            h2 2.1 Diseño web
       .bloque-texto-g.bloque-texto-g--inverso.color-acento-contenido.p-3.p-sm-4.p-md-5.mb-5(data-aos="fade-right")
         .bloque-texto-g__img(
           :style="{ backgroundImage: `url(${require_src('@/assets/curso/tema2/3.png')})` }")
         .bloque-texto-g__texto.p-4
-          p.mb-0 Desde el punto de vista técnico, el diseño web se relaciona con el uso de lenguajes de marcado como <em>HTML</em> y <em>XML</em>. Según el <em>World Wide Web Consortium (W3C)</em>, el diseñador <em>web</em> estructura las páginas mediante estos lenguajes, mientras que el <em>CSS</em> permite definir la presentación visual y configurar el <em>layout</em>. El desarrollo de un sitio <em>web</em> requiere seguir un proceso estructurado en fases sucesivas. Cuando estas etapas se ejecutan adecuadamente, se favorece la coherencia técnica y estratégica del resultado final.
+          p.mb-0 Desde el punto de vista técnico, el diseño web se relaciona con el uso de lenguajes de marcado como HTML y XML. Según el <em>World Wide Web Consortium (W3C)</em>, el diseñador web estructura las páginas mediante estos lenguajes, mientras que el CSS< permite definir la presentación visual y configurar el <em>layout</em>. El desarrollo de un sitio web requiere seguir un proceso estructurado en fases sucesivas. Cuando estas etapas se ejecutan adecuadamente, se favorece la coherencia técnica y estratégica del resultado final.
       .row.mb-5.align-items-center.justify-content-center
         .col-md-8.col-lg-4.mb-3.mb-lg-0
           figure
@@ -51,21 +51,21 @@
             div(titulo="Diseño")
               p.ms-5.mb-0 Incorporación de elementos visuales y creación de <em>mockups</em>.
             div(titulo="Desarrollo")
-              p.ms-5.mb-0 Definición del <em>CMS</em>, selección de lenguajes de programación, maquetación, optimización de velocidad, compatibilidad móvil, pruebas técnicas e integración de herramientas como <em>Google Analytics</em> y <em>Search Console</em>.
+              p.ms-5.mb-0 Definición del <em>CMS</em>, selección de lenguajes de programación, maquetación, optimización de velocidad, compatibilidad móvil, pruebas técnicas e integración de herramientas como Google Analytics y Google Search Console.
             div(titulo="Lanzamiento")
               p.ms-5.mb-0 Ajustes finales, publicación e indexación en motores de búsqueda.
       p(data-aos="fade-right") Este proceso garantiza que el producto final no solo cumpla criterios estéticos, sino también técnicos y estratégicos.
       separador
       #t_2_2.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-        h2 2.2 Arquitectura y diagramación <em>web</em>
+        h2 2.2 Arquitectura y diagramación web
       .row.justify-content-center.align-items-center.mb-5
         .col-lg-4.mb-3.order-lg-2
           figure
             img(src="@/assets/curso/tema2/5.png", data-aos="zoom-in")
         .col-lg-8.order-lg-1
           .bg-color-1.px-5.py-4.mb-3
-            p.mb-0 El diseño y la arquitectura de la información de un sitio <em>web</em> constituyen “el resultado de la actividad de clasificar, describir, estructurar y etiquetar los contenidos del sitio” (Leyva, Alarcón, Barrera & Ortegón, 2017). Esta disciplina permite organizar los contenidos de manera lógica y funcional, asegurando que el sitio responda tanto a las necesidades del negocio como a las expectativas del usuario.
-          p La arquitectura <em>web</em> implica coordinar la integración de múltiples sistemas tecnológicos, entre ellos servidores, bases de datos, redes, componentes de seguridad y mecanismos de respaldo. El arquitecto <em>web</em> diseña esta estructura para garantizar estabilidad, escalabilidad y eficiencia.
+            p.mb-0 El diseño y la arquitectura de la información de un sitio web constituyen “el resultado de la actividad de clasificar, describir, estructurar y etiquetar los contenidos del sitio” (Leyva, Alarcón, Barrera & Ortegón, 2017). Esta disciplina permite organizar los contenidos de manera lógica y funcional, asegurando que el sitio responda tanto a las necesidades del negocio como a las expectativas del usuario.
+          p La arquitectura web implica coordinar la integración de múltiples sistemas tecnológicos, entre ellos servidores, bases de datos, redes, componentes de seguridad y mecanismos de respaldo. El arquitecto web diseña esta estructura para garantizar estabilidad, escalabilidad y eficiencia.
       .bg-full-width.bg-fondo-1
         .px-4.px-md-5.py-4
           SlyderF.mb-5(columnas="col-lg-6 col-xl-4")
@@ -111,7 +111,7 @@
                   img(src='@/assets/curso/tema2/12.svg' alt='')
               h2.text-center <em>Interlinking</em>
               p.text-center Define la organización de enlaces internos entre páginas.
-          p Por su parte, la diagramación <em>web</em> consiste en la representación estructural de los contenidos y sus relaciones. Históricamente, esta representación se desarrolló mediante organigramas, diagramas de flujo de datos y árboles de decisión.
+          p Por su parte, la diagramación web consiste en la representación estructural de los contenidos y sus relaciones. Históricamente, esta representación se desarrolló mediante organigramas, diagramas de flujo de datos y árboles de decisión.
       .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mb-5(data-aos="fade-left")
         .bloque-texto-g__img(
           :style="{ backgroundImage: `url(${require_src('@/assets/curso/tema2/13.png')})` }")
@@ -127,7 +127,7 @@
                   img(src='@/assets/curso/tema2/14.png', alt='')
               .col-lg.order-lg-1
                 .p-4
-                  p.mb-0(data-aos="fade-up") Los autores angloparlantes pioneros en diseño y representación de <em>software</em> dividen los diagramas de arquitectura de información en dos grandes tipos: <em>Blueprints</em> y <em>Wireframes</em> (<em>Morville & Rosenfeld, 1998</em>). En algunos contextos, el término <em>Blueprint</em> se sustituye por <em>Architecture Map</em>, que significa mapa de arquitectura.
+                  p.mb-0(data-aos="fade-up") Los autores angloparlantes pioneros en diseño y representación de <em>software</em> dividen los diagramas de arquitectura de información en dos grandes tipos: <em>blueprints</em> y <em>wireframes</em> (<em>Morville & Rosenfeld, 1998</em>). En algunos contextos, el término <em>blueprint</em> se sustituye por <em>architecture map</em>, que significa mapa de arquitectura.
       .titulo-con-imagen.mb-5(data-aos="fade-right")
         .titulo-con-imagen__fondo
           img.titulo-con-imagen__imagen(src="@/assets/componentes/1.png")
@@ -155,7 +155,7 @@
         .titulo-con-imagen__fondo
           img.titulo-con-imagen__imagen(src="@/assets/componentes/1.png")
           h3.titulo-con-imagen__texto Maquetas y niveles de prototipado
-      p.mb-5(data-aos="fade-right") En el proceso de diseño <em>web</em>, las maquetas constituyen representaciones progresivas del producto digital. Estas pueden clasificarse según su nivel de fidelidad.
+      p.mb-5(data-aos="fade-right") En el proceso de diseño web, las maquetas constituyen representaciones progresivas del producto digital. Estas pueden clasificarse según su nivel de fidelidad.
       .row.justify-content-center
         .col-lg-10
           .bg-color-2.mb-5(data-aos="fade-up")
@@ -185,7 +185,7 @@
                   img(src='@/assets/curso/tema2/16.png', alt='')
               .col-lg-5.mb-4.mb-md-0.order-lg-1
                 h4 <em>Wireframe</em>
-                p.mb-0 Boceto preliminar del sitio <em>web</em> que puede elaborarse con lápiz y papel o mediante herramientas digitales. Representa, a través de recuadros, líneas y trazos, la estructura del contenido, la interfaz, el sistema de navegación y el funcionamiento general de la página. Se centra en la organización y jerarquía de los elementos, sin incluir aún detalles gráficos definitivos.
+                p.mb-0 Boceto preliminar del sitio web que puede elaborarse con lápiz y papel o mediante herramientas digitales. Representa, a través de recuadros, líneas y trazos, la estructura del contenido, la interfaz, el sistema de navegación y el funcionamiento general de la página. Se centra en la organización y jerarquía de los elementos, sin incluir aún detalles gráficos definitivos.
             .row.justify-content-center.align-items-center.p-3.p-lg-4
               .col-lg-5.mb-3.mb-lg-0.order-lg-2
                 figure
@@ -199,7 +199,7 @@
                   img(src='@/assets/curso/tema2/18.png', alt='')
               .col-lg-5.mb-4.mb-md-0.order-lg-1
                 h4 <em>Prototipo dinámico</em>
-                p.mb-0 Representación de alta fidelidad correspondiente a la página <em>web</em> en formato <em>HTML</em> con interacción funcional. Permite evaluar el comportamiento, la navegación y la respuesta del sistema antes de su lanzamiento definitivo.
+                p.mb-0 Representación de alta fidelidad correspondiente a la página web en formato HTML con interacción funcional. Permite evaluar el comportamiento, la navegación y la respuesta del sistema antes de su lanzamiento definitivo.
             .row.justify-content-center.align-items-center.p-3.p-lg-4
               .col-lg-5.mb-3.mb-lg-0.order-lg-2
                 figure
@@ -244,7 +244,7 @@
           img.titulo-con-imagen__imagen(src="@/assets/componentes/1.png")
           h3.titulo-con-imagen__texto Aplicaciones no especializadas para diagramación
       p.mb-5(data-aos="fade-right") Además de los programas diseñados específicamente para crear diagramas, existen herramientas de diseño gráfico que, aunque no fueron concebidas exclusivamente para diagramación, permiten desarrollar esquemas estructurales gracias a sus amplias capacidades vectoriales. A continuación, se presentan algunos ejemplos:
-      .row.mb-5.justify-content-center
+      .row.justify-content-center
         .col-sm-6.col-lg-4.mb-4.mb-lg-0(data-aos="fade-up")
           //- .tarjeta--boton debe ir acompañado de una de una de estas clases => 
           //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
@@ -254,19 +254,8 @@
               .col-4
                 figure
                   img(src='@/assets/curso/tema2/22.png', alt='')
-            h3.mb-4.text-center <em>CorelDRAW</em>
+            h3.mb-4.text-center CorelDRAW
             p.text-center Programa de diseño vectorial que permite crear diagramas, organigramas y estructuras visuales mediante herramientas de dibujo y alineación.
-        .col-sm-6.col-lg-4.mb-4.mb-lg-0(data-aos="fade-down")
-          //- .tarjeta--boton debe ir acompañado de una de una de estas clases => 
-          //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
-          //- estas clases tambien tienen un modificador --borde
-          .tarjeta--boton.bg-color-12.h-100.p-4
-            .row.justify-content-center.mb-3
-              .col-4
-                figure
-                  img(src='@/assets/curso/tema2/23.png', alt='')
-            h3.mb-4.text-center <em>Adobe FreeHand</em>
-            p.text-center Editor vectorial originalmente desarrollado por Macromedia y posteriormente por Adobe. Permitía la elaboración de esquemas y representaciones gráficas estructuradas.
         .col-sm-6.col-lg-4.mb-4.mb-lg-0(data-aos="fade-up")
           //- .tarjeta--boton debe ir acompañado de una de una de estas clases => 
           //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
@@ -276,12 +265,12 @@
               .col-4
                 figure
                   img(src='@/assets/curso/tema2/24.png', alt='')
-            h3.mb-4.text-center <em>Adobe Illustrator</em>
+            h3.mb-4.text-center Adobe Illustrator
             p.text-center Herramienta profesional de diseño vectorial que facilita la construcción de diagramas complejos mediante formas, capas y guías de alineación.
       separador
       #t_2_4.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-        h2 2.4 Maquetación <em>web</em>
-      p.mb-5(data-aos="fade-right") La maquetación <em>web</em> se inicia con la construcción del mapa de navegación, donde se planifica el contenido y la organización de cada página y subpágina del sitio. Consiste en definir, organizar y posicionar los contenidos dentro de una estructura que favorezca la lectura, la claridad informativa y una experiencia de usuario coherente. Este proceso requiere conocimientos técnicos en lenguajes de programación y estándares web. Para desarrollar adecuadamente la maquetación, se deben considerar los siguientes aspectos:
+        h2 2.4 Maquetación web
+      p.mb-5(data-aos="fade-right") La maquetación web se inicia con la construcción del mapa de navegación, donde se planifica el contenido y la organización de cada página y subpágina del sitio. Consiste en definir, organizar y posicionar los contenidos dentro de una estructura que favorezca la lectura, la claridad informativa y una experiencia de usuario coherente. Este proceso requiere conocimientos técnicos en tecnologías y estándares web. Para desarrollar adecuadamente la maquetación, se deben considerar los siguientes aspectos:
       .bg-full-width.bg-fondo-slider.mb-5
         .p-4.p-lg-5
           SlyderA(tipo="b").bg-color-white.p-4.tarjeta
@@ -304,22 +293,22 @@
                 figure
                   img(src='@/assets/curso/tema2/27.png', alt='')
               .col-lg-5.mb-4.mb-md-0.order-lg-1
-                h4 Uso de estándares <em>web</em>
+                h4 Uso de estándares web
                 p.mb-0 Aplicar recomendaciones lideradas por el <em>World Wide Web Consortium (W3C)</em>, garantizando accesibilidad universal, robustez técnica y compatibilidad con distintos dispositivos y tecnologías.
-      p.mb-0(data-aos="fade-right") Asimismo, en la maquetación <em>web</em> es fundamental considerar la interfaz gráfica de usuario o <em>GUI (Graphic User Interface)</em>, entendida como el entorno visual mediante el cual el usuario interactúa con el sistema. La <em>GUI</em> integra imágenes, iconos, botones y demás objetos gráficos que permiten acceder a funcionalidades y comprender la información presentada en pantalla.
+      p.mb-0(data-aos="fade-right") Asimismo, en la maquetación web es fundamental considerar la interfaz gráfica de usuario o <em>GUI (Graphical User Interface)</em>, entendida como el entorno visual mediante el cual el usuario interactúa con el sistema. La <em>GUI</em> integra imágenes, iconos, botones y demás objetos gráficos que permiten acceder a funcionalidades y comprender la información presentada en pantalla.
       separador
       #t_2_5.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-        h2 2.5 Lenguajes de programación para <em>frontend</em>
-      p.mb-5(data-aos="fade-right") Para introducir los lenguajes de programación más utilizados en el diseño <em>web</em>, es necesario definir primero el <em>frontend</em> como parte fundamental del desarrollo <em>web</em>.
+        h2 2.5 Tecnologías y Lenguajes utilizados en el #[i frontend]
+      p.mb-5(data-aos="fade-right") Para introducir las principales tecnologías y lenguajes empleados en el desarrollo web, es necesario definir primero el #[i frontend] como una parte fundamental de este proceso.
       .titulo-con-imagen.mb-5(data-aos="fade-right")
         .titulo-con-imagen__fondo
           img.titulo-con-imagen__imagen(src="@/assets/componentes/1.png")
-          h3.titulo-con-imagen__texto Frontend
+          h3.titulo-con-imagen__texto #[i Frontend]
       .bloque-texto-g.bloque-texto-g--inverso.color-acento-contenido.p-3.p-sm-4.p-md-5.mb-5(data-aos="fade-left")
         .bloque-texto-g__img(
           :style="{ backgroundImage: `url(${require_src('@/assets/curso/tema2/28.png')})` }")
         .bloque-texto-g__texto.p-4
-          p.mb-0 El <em>frontend</em> hace referencia a la capa de presentación de las aplicaciones, ya que define cómo se presentan los elementos y cómo se comporta la interacción con el usuario. Corresponde a la parte de una aplicación que interactúa directamente con el usuario; es decir, todo lo que aparece en pantalla al acceder a un sitio <em>web</em> o aplicación: tipografías, colores, botones, menús, adaptación a distintas pantallas mediante <em>RWD (Responsive Web Design)</em>, efectos de interacción con ratón y teclado, desplazamientos y demás elementos que configuran la experiencia del usuario.
+          p.mb-0 El <em>frontend</em> hace referencia a la capa de presentación de las aplicaciones, ya que define cómo se presentan los elementos y cómo se comporta la interacción con el usuario. Corresponde a la parte de una aplicación que interactúa directamente con el usuario; es decir, todo lo que aparece en pantalla al acceder a un sitio web o aplicación: tipografías, colores, botones, menús, adaptación a distintas pantallas mediante <em>RWD (Responsive Web Design)</em>, efectos de interacción con ratón y teclado, desplazamientos y demás elementos que configuran la experiencia del usuario.
       p.mb-5(data-aos="fade-right") El <em>frontend</em> no gestiona directamente bases de datos ni servidores (funciones propias del <em>back-end</em>), pero sí aborda aspectos como la usabilidad, los efectos visuales y la velocidad de carga. Un desarrollador <em>frontend</em> debe dominar, al menos, los siguientes lenguajes y tecnologías:
       .bg-full-width.bg-fondo-1
         .px-4.px-md-5.py-4
@@ -362,8 +351,8 @@
           .titulo-con-imagen.mb-5(data-aos="fade-right")
             .titulo-con-imagen__fondo
               img.titulo-con-imagen__imagen(src="@/assets/componentes/1.png")
-              h3.titulo-con-imagen__texto <em>HTML</em>
-      p.mb-5(data-aos="fade-left") <em>HTML</em> corresponde a las siglas de <em>Hyper Text Markup Language</em> (Lenguaje de Marcas de Hipertexto). Es el principal lenguaje de marcación utilizado para el desarrollo de páginas <em>web</em>. Se trata de un lenguaje que utilizan las aplicaciones para representar documentos digitales, como páginas <em>web</em>, que pueden transmitirse a través de internet. Los navegadores procesan e interpretan los documentos descritos en <em>HTML</em> mediante analizadores específicos.
+              h3.titulo-con-imagen__texto HTML
+      p.mb-5(data-aos="fade-left") HTML corresponde a las siglas de <em>Hypertext Markup Language</em> (Lenguaje de Marcas de Hipertexto). Es el principal lenguaje de marcación utilizado para el desarrollo de páginas web. Se trata de un lenguaje que utilizan las aplicaciones para representar documentos digitales, como páginas web, que pueden transmitirse a través de internet. Los navegadores procesan e interpretan los documentos descritos en HTML mediante analizadores específicos.
       .bg-full-width.bg-color-3
         .px-4.px-md-5.py-4
           .row.justify-content-center
@@ -386,7 +375,7 @@
                         span.texto-blanco Internet básico, email, descargas y compras en línea
                         span.bg-color-13 &lt;<em>/title</em>&gt;
                       p.mb-0 En este caso, la etiqueta &lt;<em>title</em>&gt; indica el título del documento web.
-          p.mb-5(data-aos="fade-left") <em>HTML5</em> también se emplea como término que agrupa tecnologías modernas de desarrollo <em>web: HTML5</em>, <em>CSS3</em> y nuevas capacidades de <em>JavaScript</em>. <em>HTML4</em> y <em>HTML5</em> mantienen compatibilidad estructural.
+          p.mb-5(data-aos="fade-left") HTML5 también se emplea como término que agrupa tecnologías modernas de desarrollo web: HTML5, CSS3 y nuevas capacidades de JavaScript. HTML4 y HTML5 mantienen compatibilidad estructural.
           .row.justify-content-center.align-items-stretch.mb-5(data-aos="fade-down")
             .col-lg-4.col-xl-2.mb-3.mb-xl-0
               .bg-color-12.h-100.text-center
@@ -417,7 +406,7 @@
             .titulo-con-imagen__fondo
               img.titulo-con-imagen__imagen(src="@/assets/componentes/1.png")
               h3.titulo-con-imagen__texto CSS
-      p.mb-5(data-aos="fade-left") CSS corresponde a <em>Cascading Style Sheets </em>(Hojas de estilo en cascada). Su función es controlar la apariencia visual del sitio <em>web</em> y permitir una presentación coherente y diferenciada. Las hojas de estilo se superponen siguiendo un modelo jerárquico, aplicando reglas en función de factores como el tamaño y la resolución de la pantalla del dispositivo. Desde su aparición en 1993, HTML ha evolucionado hasta consolidarse como estándar en su versión HTML5. Esta evolución ha sido posible gracias a la integración con CSS, que permite incorporar funcionalidades avanzadas como:
+      p.mb-5(data-aos="fade-left") CSS corresponde a <em>Cascading Style Sheets</em> (Hojas de estilo en cascada). Su función es controlar la apariencia visual del sitio web y permitir una presentación coherente y diferenciada. Las hojas de estilo se superponen siguiendo un modelo jerárquico, aplicando reglas en función de factores como el tamaño y la resolución de la pantalla del dispositivo. Desde su aparición en 1994, HTML ha evolucionado hasta consolidarse como estándar en su versión HTML5. Esta evolución ha sido posible gracias a la integración con CSS, que permite incorporar funcionalidades avanzadas como:
       .row.justify-content-center
         .col-lg-8
           .bg-color-2.mb-5(data-aos="fade-up")
@@ -452,7 +441,7 @@
                 img(src="@/assets/curso/tema2/37.png", data-aos="zoom-in")
             .col-lg-8.order-lg-1
               .bg-color-1.p-5
-                p.mb-0 La estructuración técnica de un sitio <em>web</em> constituye un proceso estratégico que integra aspectos conceptuales, temáticos y técnicos. No se trata únicamente de definir una arquitectura organizada, sino de planificar cómo se presentará la temática, cómo se distribuirán los contenidos y de qué manera se garantizará una experiencia de usuario coherente. Sin una adecuada planificación conceptual, resulta imposible consolidar posteriormente una estructura técnica eficiente. 
+                p.mb-0 La estructuración técnica de un sitio web constituye un proceso estratégico que integra aspectos conceptuales, temáticos y técnicos. No se trata únicamente de definir una arquitectura organizada, sino de planificar cómo se presentará la temática, cómo se distribuirán los contenidos y de qué manera se garantizará una experiencia de usuario coherente. Sin una adecuada planificación conceptual, resulta imposible consolidar posteriormente una estructura técnica eficiente. 
           .titulo-con-imagen.mb-5(data-aos="fade-right")
             .titulo-con-imagen__fondo
               img.titulo-con-imagen__imagen(src="@/assets/componentes/1.png")
@@ -468,7 +457,7 @@
                 img(src="@/assets/curso/tema2/38.png", data-aos="zoom-in")
             .col-lg-8.order-lg-1
               .bg-color-12.p-5.mb-3
-                p.mb-0 La creación de un sitio <em>web</em> implica la generación de diferentes URL o direcciones internas que parten de un dominio común. Estas direcciones deben construirse con palabras clave indicativas que describan el contenido de cada página.
+                p.mb-0 La creación de un sitio web implica la generación de diferentes URL o direcciones internas que parten de un dominio común. Estas direcciones deben construirse con palabras clave indicativas que describan el contenido de cada página.
                 p Las URL amigables para SEO <em>(Search Engine Optimization)</em> permiten que los motores de búsqueda comprendan mejor la estructura del sitio. Lo primero que analiza Google al rastrear una página es su URL; por ello, esta debe ser clara, descriptiva y coherente con la temática del contenido.
       .row.mb-5.justify-content-center
         .col-sm-6.col-lg-4.mb-4.mb-lg-0(data-aos="fade-up")
@@ -559,7 +548,7 @@
                   .col-10
                     figure
                       img(src='@/assets/curso/tema2/45.png', alt='')
-                h5.text-center Uso de layouts fluidos.
+                h5.text-center Uso de #[i layouts] fluidos.
             .col-sm-6.col-lg-3.mb-4.mb-lg-0(data-aos="fade-down")
               //- .tarjeta--boton debe ir acompañado de una de una de estas clases => 
               //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
@@ -579,12 +568,12 @@
                   .col-10
                     figure
                       img(src='@/assets/curso/tema2/47.png', alt='')
-                h5.text-center Implementación de media queries en CSS3.
+                h5.text-center Implementación de #[i media queries] en CSS3.
           .titulo-con-imagen.mb-5(data-aos="fade-right")
             .titulo-con-imagen__fondo
               img.titulo-con-imagen__imagen(src="@/assets/componentes/1.png")
               h3.titulo-con-imagen__texto La <em>web responsive</em>
-          p.mb-5(data-aos="fade-left") Además de la correcta adaptación visual y navegacional, los sitios <em>web</em> deben responder a exigencias externas relacionadas con servidores, navegadores y motores de búsqueda.
+          p.mb-5(data-aos="fade-left") Además de la correcta adaptación visual y navegacional, los sitios web deben responder a exigencias externas relacionadas con servidores, navegadores y motores de búsqueda.
           .row.justify-content-center
             .col-lg-10.col-xl-8
               .bg-color-2.mb-5(data-aos="fade-up")
@@ -624,13 +613,42 @@ export default {
   data: () => ({
     // variables de vue
   }),
+  watch: {
+    // Escucha el cambio de sección desde el menú lateral
+    '$route.hash'() {
+      this.scrollToElement()
+    },
+  },
   mounted() {
-    this.$nextTick(() => {
-      this.$aosRefresh()
-    })
+    this.scrollToElement()
   },
   updated() {
     this.$aosRefresh()
+  },
+  methods: {
+    scrollToElement() {
+      this.$nextTick(() => {
+        this.$aosRefresh()
+        // 500ms da tiempo suficiente a que la animación de cierre del menú lateral
+        // termine y libere el ancho/alto real del contenedor
+        setTimeout(() => {
+          const hash = this.$route.hash || window.location.hash
+          if (!hash) return
+          const element = document.querySelector(hash)
+          if (element) {
+            // Altura de la barra superior fija del SENA
+            const headerOffset = 100
+            const elementPosition = element.getBoundingClientRect().top
+            const offsetPosition =
+              elementPosition + window.pageYOffset - headerOffset
+            window.scrollTo({
+              top: offsetPosition,
+              behavior: 'smooth',
+            })
+          }
+        }, 500)
+      })
+    },
   },
 }
 </script>

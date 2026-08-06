@@ -23,7 +23,7 @@ export default {
       titulo: 'Cuestionario',
       introduccion:
         '<b>Objetivo:</b> identificar los conceptos clave relacionados con la edición, montaje, formatos digitales, producción audiovisual y desarrollo web.',
-      barajarPreguntas: false,
+      barajarPreguntas: true,
       titulo_aprobado: '¡BUEN TRABAJO!',
       titulo_reprobado: 'VUELVA A INTENTARLO',
       preguntas: [
@@ -130,7 +130,7 @@ export default {
         },
         {
           id: 4,
-          texto: '¿Qué caracteriza a una imagen en mapa de bits?',
+          texto: '¿Qué caracteriza a una imagen en mapa de <i>bits</i>?',
           imagen: '@/assets/actividad/imagen4.png',
           barajarRespuestas: true,
           opciones: [
@@ -216,7 +216,7 @@ export default {
             },
             {
               id: 'd',
-              texto: 'La marca del software utilizado en edición.',
+              texto: 'La marca del <i>software</i> utilizado en edición.',
               esCorrecta: false,
             },
           ],

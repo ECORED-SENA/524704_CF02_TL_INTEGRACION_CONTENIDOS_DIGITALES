@@ -214,10 +214,11 @@
     h3
       color: $color-sistema-texto !important
 
-///////////////TABLAS/////////////////// 
+//////////////////TABLAS//////////////////
 .tbl
-  table td
-  text-align: start !important
+  table
+    td, th
+      text-align: start !important
   th, td, table thead th, .tabla-a th
     border: 2px solid #B5B5B5
   table
@@ -228,5 +229,8 @@
   display: flex
   align-items: center
   justify-content: center
-  min-height: 80px // Ajusta este valor según el título más largo
+  min-height: 80px
   width: 100%
+
+.tarjeta--boton
+  cursor: default !important

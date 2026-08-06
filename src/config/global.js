@@ -59,17 +59,17 @@ export default {
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Creación <em>web</em>',
+        titulo: 'Creación web',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '2.1',
-            titulo: 'Diseño <em>web</em>',
+            titulo: 'Diseño web',
             hash: 't_2_1',
           },
           {
             numero: '2.2',
-            titulo: 'Arquitectura y diagramación <em>web</em>',
+            titulo: 'Arquitectura y diagramación web',
             hash: 't_2_2',
           },
           {
@@ -79,17 +79,18 @@ export default {
           },
           {
             numero: '2.4',
-            titulo: 'Maquetación <em>web</em>',
+            titulo: 'Maquetación web',
             hash: 't_2_4',
           },
           {
             numero: '2.5',
-            titulo: 'Lenguajes de programación para <em>frontend</em>',
+            titulo:
+              'Tecnologías y Lenguajes utilizados en el <em>frontend</em>',
             hash: 't_2_5',
           },
           {
             numero: '2.6',
-            titulo: 'Estructuración técnica de un sitio <em>web</em>',
+            titulo: 'Estructuración técnica de un sitio web',
             hash: 't_2_6',
           },
         ],
@@ -143,7 +144,7 @@ export default {
     {
       termino: 'Declaración CSS',
       significado:
-        'es la suma de la propiedad más el valor y se encuentra siempre entre dos corchetes. Si el selector es la parte del código que indica en qué parte se ha de aplicar la regla CSS, la declaración explica en qué consisten las instrucciones.',
+        'es la suma de la propiedad más el valor y se encuentra siempre entre dos llaves. Si el selector es la parte del código que indica en qué parte se ha de aplicar la regla CSS, la declaración explica en qué consisten las instrucciones.',
     },
     {
       termino: 'Etiqueta',
@@ -155,14 +156,14 @@ export default {
         'se les llama formatos generalmente a cada tipo de archivo, por ejemplo: JPG, GIF.',
     },
     {
-      termino: 'Hosting',
+      termino: '<i>Hosting</i>',
       significado:
         'sinónimo de servidor; también se denomina así a los servidores que alojan sitios web y se les conoce como HOST.',
     },
     {
       termino: 'HTML',
       significado:
-        '<em>hypertext markup language</em> o lenguaje de marcado de hipertextos. Destinado a simplificar la escritura de documentos estándar. Es la base estructural en la que están diseñadas las páginas de la <em>World Wide Web</em>.',
+        '<em>hypertext markup language</em> o lenguaje de marcado de hipertexto. Destinado a simplificar la escritura de documentos estándar. Es la base estructural en la que están diseñadas las páginas de la <em>World Wide Web</em>.',
     },
     {
       termino: 'HTTP',
@@ -211,7 +212,7 @@ export default {
     },
     {
       referencia:
-        'Leyva, Alarcón, Barrera, y Ortegón. (2016). <i>Exploración del diseño y arquitectura web: aplicación a páginas electrónicas del sector bancario desde la perspectiva del usuario</i>. Revista Escuela de Administración de Negocios, (80), 41-57.',
+        'Leyva, Alarcón, Barrera y Ortegón. (2016). <i>Exploración del diseño y arquitectura web: aplicación a páginas electrónicas del sector bancario desde la perspectiva del usuario</i>. Revista Escuela de Administración de Negocios, (80), 41-57.',
       link: '',
     },
     {
@@ -255,8 +256,7 @@ export default {
       link: 'https://dle.rae.es',
     },
     {
-      referencia:
-        'Shum, Y. M. (2021). <i>Situación global mobile 2020: 5.190 millones de usuarios únicos</i>.',
+      referencia: 'Shum, Y. M. (2021). <i>Situación global mobile 2020.</i>.',
       link: 'https://yiminshum.com/mobile-movil-app-2020/',
     },
     {
@@ -272,7 +272,7 @@ export default {
         {
           nombre: 'Claudia Johanna Gómez Pérez',
           cargo:
-            'Profesional 06. Responsable del ecosistema virtual de recuersos educativos digitales',
+            'Profesional 06. Responsable del ecosistema virtual de recursos educativos digitales',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
@@ -310,7 +310,7 @@ export default {
         },
         {
           nombre: 'Cielo Damaris Angulo Rodríguez',
-          cargo: 'Desarrollador <i>full stack senior</i>',
+          cargo: 'Desarrolladora <i>full stack senior</i>',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
@@ -363,7 +363,7 @@ export default {
         },
         {
           nombre: 'Aixa Natalia Sendoya Fernández',
-          cargo: 'Validador de recursos educativos digitales',
+          cargo: 'Validadora de recursos educativos digitales',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },

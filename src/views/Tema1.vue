@@ -116,7 +116,7 @@
       div.bg-color-6.p-3.d-inline-flex.tarjeta.mb-3
         h4.mb-0 Formatos
       p(data-aos="fade-right") Los formatos corresponden a la forma codificada que adquiere la imagen al almacenarse digitalmente. Definen la manera en que se guardan los píxeles y determinan aspectos como calidad, peso del archivo y compatibilidad.
-      p.mb-5(data-aos="fade-left") Antes de la tabla, se sintetizan algunos formatos frecuentes para imágenes en mapa de bits:
+      p.mb-5(data-aos="fade-left") A continuación, se sintetizan algunos formatos frecuentes para imágenes en mapa de bits:
       .row.mb-5.justify-content-center
         .col-sm-6.col-lg-4.mb-4.mb-lg-0(data-aos="fade-up")
           //- .tarjeta--boton debe ir acompañado de una de una de estas clases => 
@@ -128,7 +128,7 @@
                 figure
                   img(src='@/assets/curso/tema1/8.svg', alt='')
             h3.mb-4.text-center BMP
-            p.text-center Desarrollado para sistemas operativos Microsoft. Soporta hasta 24 bits por píxel. Genera archivos de gran tamaño, por lo que no es adecuado para páginas web.
+            p.text-center Desarrollado para sistemas operativos de Microsoft. Soporta hasta 24 bits por píxel. Genera archivos de gran tamaño, por lo que no es adecuado para páginas web.
         .col-sm-6.col-lg-4.mb-4.mb-lg-0(data-aos="fade-down")
           //- .tarjeta--boton debe ir acompañado de una de una de estas clases => 
           //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
@@ -243,7 +243,7 @@
               .col-lg
                   .bloque-texto-c.p-4
                     i.fas.fa-quote-right
-                    p.mb-2 Es la manipulación, a través de programas de edición gráfica, de imágenes capturadas o previamente diseñadas, con la intención de reforzar conceptos o mensajes mediante la modificación del color, formas, composición, contrastes, estilo, etcétera. La edición para hacer collages o mejorar la calidad de la imagen es también un recurso de gran valor en publicidad; gracias a ello, se pueden exagerar o disminuir rasgos o elementos de todo tipo.
+                    p.mb-2 La manipulación, a través de programas de edición gráfica, de imágenes capturadas o previamente diseñadas, con la intención de reforzar conceptos o mensajes mediante la modificación del color, formas, composición, contrastes, estilo, etcétera. La edición para hacer collages o mejorar la calidad de la imagen es también un recurso de gran valor en publicidad; gracias a ello, se pueden exagerar o disminuir rasgos o elementos de todo tipo.
                     span <b>(Viveros, 2005).</b>
       p.mb-5(data-aos="fade-up") El tratamiento se realiza mediante un editor de imágenes, es decir, un <em>software</em> especializado que proporciona herramientas, efectos, opciones de ajuste y posibilidades de modificación del formato al momento de guardar el archivo.
       div.bg-color-6.p-3.d-inline-flex.tarjeta.mb-3
@@ -400,7 +400,7 @@
           .row.justify-content-center
             .col-lg-6.mb-3.mb-lg-0
               .bg-color-4.p-4
-                h4 Gratuitos
+                h4 Gratuitas
                 ul.lista-ul--color.ms-2.mb-0
                   li.mb-1.d-flex
                     i.fas.fa-circle-check.bg-color-11
@@ -485,7 +485,7 @@
       .titulo-con-imagen.mb-5(data-aos="fade-right")
         .titulo-con-imagen__fondo
           img.titulo-con-imagen__imagen(src="@/assets/componentes/1.png")
-          h3.titulo-con-imagen__texto Formatos para transmisión en líneal
+          h3.titulo-con-imagen__texto Formatos para transmisión en línea
       p.mb-5(data-aos="fade-left") Esta categoría incluye los formatos optimizados para servicios de <em>streaming</em> y distribución digital, donde resulta fundamental equilibrar calidad sonora y tamaño del archivo.
       .row.mb-5.align-items-center.justify-content-center
         .col-md-8.col-lg-3.mb-3.mb-lg-0.order-lg-2
@@ -534,7 +534,7 @@
                 .col-10
                   img(src='@/assets/curso/tema1/53.png' alt='')
               h2.text-center <em>Music Editor Free</em>
-              p.text-center Software para grabar y editar música. Permite cortar, copiar, pegar y aplicar efectos a pistas de audio.
+              p.text-center #[i Software] para grabar y editar música. Permite cortar, copiar, pegar y aplicar efectos a pistas de audio.
             .tarjeta.bg-color-12.p-4
               .row.justify-content-center.mb-3
                 .col-10
@@ -552,9 +552,9 @@
                 .col-10
                   img(src='@/assets/curso/tema1/56.png' alt='')
               h2.text-center <em>DJ Audio Editor</em>
-              p.text-center Limita la imagen a un máximo de 256 colores (M., 2014).
+              p.text-center Herramienta de uso sencillo que permite añadir efectos, grabar desde distintas fuentes y exportar en varios formatos.
           div.bg-color-6.p-3.d-inline-flex.tarjeta.mb-3
-            h4.mb-0 Programas para Windows y Mac OS X
+            h4.mb-0 Programas para Windows y macOS X
           p.mb-5(data-aos="fade-left") Estos programas amplían su compatibilidad a sistemas operativos de Apple, lo que facilita el trabajo en entornos multiplataforma.
           SlyderF.mb-5(columnas="col-lg-6 col-xl-4")
             .tarjeta.bg-color-12.p-4
@@ -574,13 +574,13 @@
                 .col-10
                   img(src='@/assets/curso/tema1/59.png' alt='')
               h2.text-center <em>WaveSurfer</em>
-              p.text-center Software de código abierto diseñado tanto para usuarios avanzados como principiantes.
+              p.text-center #[i Software] de código abierto diseñado tanto para usuarios avanzados como principiantes.
             .tarjeta.bg-color-12.p-4
               .row.justify-content-center.mb-3
                 .col-10
                   img(src='@/assets/curso/tema1/60.png' alt='')
               h2.text-center <em>Adobe Audition</em>
-              p.text-center Aplicación profesional desarrollada por <em>Adobe Systems Incorporated</em>. Ofrece un entorno multipista para edición, mezcla y producción de audio digital.
+              p.text-center Aplicación profesional desarrollada por Adobe Inc. Ofrece un entorno multipista para edición, mezcla y producción de audio digital.
       p(data-aos="fade-up") En síntesis, los programas de edición de audio <em>offline</em> ofrecen distintas funcionalidades según el nivel de complejidad requerido. Algunas herramientas se orientan a tareas básicas como cortar o unir fragmentos, mientras que otras permiten procesos avanzados de mezcla multipista, incorporación de efectos y producción musical completa. La elección del programa dependerá del sistema operativo disponible, el nivel de experiencia del usuario y el objetivo del proyecto sonoro.
       separador
       #t_1_3.titulo-segundo.color-acento-contenido(data-aos="flip-up")
@@ -786,7 +786,7 @@
         .titulo-con-imagen__fondo
           img.titulo-con-imagen__imagen(src="@/assets/componentes/1.png")
           h3.titulo-con-imagen__texto Programas de edición de video
-      p.mb-5(data-aos="fade-left") Al igual que en la edición de imágenes estáticas, existe una amplia variedad de software especializado para realizar el montaje y la edición de video. Estas herramientas permiten organizar secuencias, integrar audio, aplicar efectos, generar animaciones y exportar productos audiovisuales en diferentes formatos según los requerimientos del proyecto. A continuación, se presentan algunos de los programas más utilizados en el ámbito profesional y semiprofesional:
+      p.mb-5(data-aos="fade-left") Al igual que en la edición de imágenes estáticas, existe una amplia variedad de #[i software] especializado para realizar el montaje y la edición de video. Estas herramientas permiten organizar secuencias, integrar audio, aplicar efectos, generar animaciones y exportar productos audiovisuales en diferentes formatos según los requerimientos del proyecto. A continuación, se presentan algunos de los programas más utilizados en el ámbito profesional y semiprofesional:
       .row.justify-content-center
         .col-lg-10
           .titulo-sexto.color-acento-contenido(data-aos="fade-right")
@@ -801,32 +801,32 @@
                   th.bg-color-8 Características principales
               tbody.bg-color-sintesis
                 tr
-                  td <em>Final Cut Pro</em>
-                  td <em>Mac</em>
-                  td Desarrollado por <em>Apple</em>. Es uno de los referentes en edición profesional de video por su rendimiento, estabilidad y herramientas avanzadas de montaje.
+                  td Final Cut Pro
+                  td Mac
+                  td Desarrollado por Apple. Es uno de los referentes en edición profesional de video por su rendimiento, estabilidad y herramientas avanzadas de montaje.
                 tr
-                  td <em>Adobe Premiere Pro</em>
-                  td <em>Windows</em> y <em>Mac</em>
-                  td Alternativa profesional perteneciente a la familia <em>Adobe Creative Cloud</em>. Ofrece herramientas avanzadas de edición, corrección de color y sincronización de audio.
+                  td Adobe Premiere Pro
+                  td Windows y Mac
+                  td Alternativa profesional perteneciente a la familia Adobe Creative Cloud. Ofrece herramientas avanzadas de edición, corrección de color y sincronización de audio.
                 tr
-                  td <em>Adobe After Effects</em>
-                  td <em>Windows</em> y <em>Mac</em>
-                  td Complemento de <em>Premiere Pro</em> orientado a animaciones, gráficos en movimiento (<em>motion graphics</em>) y efectos visuales. Requiere conocimientos avanzados.
+                  td Adobe After Effects
+                  td Windows y Mac
+                  td Complemento de Premiere Pro orientado a animaciones, gráficos en movimiento (<em>motion graphics</em>) y efectos visuales. Requiere conocimientos avanzados.
                 tr
-                  td <em>Avid Media Composer</em>
-                  td <em>Windows</em> y <em>Mac</em>
+                  td Avid Media Composer
+                  td Windows y Mac
                   td Utilizado en entornos profesionales de cine y televisión. Destaca por su flujo de trabajo dinámico y herramientas de edición avanzada.
                 tr
-                  td <em>Pinnacle Studio</em>
-                  td <em>Windows</em>
+                  td Pinnacle Studio
+                  td Windows
                   td Programa intuitivo y de fácil manejo, orientado a usuarios intermedios.
                 tr
-                  td <em>Vegas Pro</em>
-                  td <em>Windows</em>
-                  td Potente editor con amplia gama de efectos y herramientas profesionales. Incluye una versión simplificada denominada <em>Movie Studio</em> para usuarios principiantes.
+                  td Vegas Pro
+                  td Windows
+                  td Potente editor con amplia gama de efectos y herramientas profesionales. Incluye una versión simplificada denominada Movie Studio para usuarios principiantes.
                 tr
-                  td <em>Corel VideoStudio</em>
-                  td <em>Windows</em>
+                  td Corel VideoStudio
+                  td Windows
                   td Programa avanzado que incorpora funciones como captura de pantalla en video, útil para la creación de tutoriales.
       p.mb-0(data-aos="fade-right") En conclusión, la elección del programa de edición dependerá del nivel de complejidad del proyecto, el sistema operativo disponible y la experiencia del usuario. Mientras algunas herramientas están orientadas a producciones profesionales de alto nivel, otras ofrecen entornos más intuitivos que facilitan el aprendizaje y la producción de contenidos educativos o institucionales.
 
@@ -837,13 +837,42 @@ export default {
   data: () => ({
     // variables de vue
   }),
+  watch: {
+    // Escucha el cambio de sección desde el menú lateral
+    '$route.hash'() {
+      this.scrollToElement()
+    },
+  },
   mounted() {
-    this.$nextTick(() => {
-      this.$aosRefresh()
-    })
+    this.scrollToElement()
   },
   updated() {
     this.$aosRefresh()
+  },
+  methods: {
+    scrollToElement() {
+      this.$nextTick(() => {
+        this.$aosRefresh()
+        // 500ms da tiempo suficiente a que la animación de cierre del menú lateral
+        // termine y libere el ancho/alto real del contenedor
+        setTimeout(() => {
+          const hash = this.$route.hash || window.location.hash
+          if (!hash) return
+          const element = document.querySelector(hash)
+          if (element) {
+            // Altura de la barra superior fija del SENA
+            const headerOffset = 100
+            const elementPosition = element.getBoundingClientRect().top
+            const offsetPosition =
+              elementPosition + window.pageYOffset - headerOffset
+            window.scrollTo({
+              top: offsetPosition,
+              behavior: 'smooth',
+            })
+          }
+        }, 500)
+      })
+    },
   },
 }
 </script>
