@@ -117,7 +117,7 @@
           :style="{ backgroundImage: `url(${require_src('@/assets/curso/tema2/13.png')})` }")
         .bloque-texto-g__texto.p-4
           p.mb-0 Con la evolución de las interfaces gráficas de usuario, surgieron herramientas como los guiones de navegación y guiones de interacción, que describen el funcionamiento de los productos digitales. Asimismo, durante el proceso de arquitectura de la información se emplean técnicas como el <em>card sorting</em>, que puede generar dendrogramas y gráficos de escalamiento multidimensional, así como dinámicas de <em>brainstorming</em> para representar estructuras mentales de los usuarios.
-      p.mb-5(data-aos="fade-right") En conclusión, la creación <em>web</em> integra diseño, arquitectura, estrategia y tecnología. La adecuada organización de contenidos y sistemas garantiza que el sitio no solo cumpla una función estética, sino que responda de manera eficiente a objetivos empresariales y necesidades de los usuarios.
+      p.mb-5(data-aos="fade-right") En conclusión, la creación web integra diseño, arquitectura, estrategia y tecnología. La adecuada organización de contenidos y sistemas garantiza que el sitio no solo cumpla una función estética, sino que responda de manera eficiente a objetivos empresariales y necesidades de los usuarios.
       .row.justify-content-center
         .col-lg-10
           .bg-color-2.mb-5(data-aos="fade-up")
@@ -215,7 +215,7 @@
                 h4 <em>Frontend</em>
                 p Parte de la aplicación que interactúa directamente con el usuario. Corresponde al lado del cliente y define la presentación de los elementos y el comportamiento de la interacción. Incluye tipografías, colores, adaptación a distintas pantallas mediante diseño adaptable <em>(Responsive Web Design o RWD)</em>, efectos de interacción y desplazamientos.
                 h4 Lenguajes del <em>frontend</em>
-                p.mb-0 <em>HTML5</em> (estructura del contenido), <em>CSS3</em> (estilización y diseño visual), <em>JavaScript</em> (interactividad y comportamiento dinámico), <em>jQuery</em> (biblioteca que facilita el uso de JavaScript) y <em>Ajax</em> (comunicación asíncrona con el servidor sin recargar la página).
+                p.mb-0 HTML5 (estructura del contenido), CSS3 (estilización y diseño visual), JavaScript (interactividad y comportamiento dinámico), jQuery (biblioteca que facilita el uso de JavaScript) y Ajax (comunicación asíncrona con el servidor sin recargar la página).
       separador
       #t_2_3.titulo-segundo.color-acento-contenido(data-aos="flip-up")
         h2 2.3 <em>Software</em> para hacer diagramas
@@ -572,7 +572,7 @@
           .titulo-con-imagen.mb-5(data-aos="fade-right")
             .titulo-con-imagen__fondo
               img.titulo-con-imagen__imagen(src="@/assets/componentes/1.png")
-              h3.titulo-con-imagen__texto La <em>web responsive</em>
+              h3.titulo-con-imagen__texto La web <em>responsive</em>
           p.mb-5(data-aos="fade-left") Además de la correcta adaptación visual y navegacional, los sitios web deben responder a exigencias externas relacionadas con servidores, navegadores y motores de búsqueda.
           .row.justify-content-center
             .col-lg-10.col-xl-8
@@ -588,7 +588,7 @@
       .titulo-con-imagen.mb-5(data-aos="fade-right")
         .titulo-con-imagen__fondo
           img.titulo-con-imagen__imagen(src="@/assets/componentes/1.png")
-          h3.titulo-con-imagen__texto Ventajas de tener un sitio <em>web responsive</em>
+          h3.titulo-con-imagen__texto Ventajas de tener un sitio web <em>responsive</em>
       p.mb-5(data-aos="fade-right") La incorporación del diseño <em>responsive</em> impacta directamente en las estrategias de <em>marketing</em> digital y en los resultados obtenidos.
       .row.mb-5.align-items-center.justify-content-center
         .col-md-8.col-lg-4.mb-3.mb-lg-0
@@ -604,7 +604,7 @@
               p.ms-5.mb-0 Las actualizaciones se reflejan en todos los dispositivos, reduciendo costos operativos y de mantenimiento.
             div(titulo="Mayor alcance de audiencia")
               p.ms-5.mb-0 Permite llegar a usuarios que acceden desde múltiples dispositivos, ampliando la cobertura digital.
-      p.mb-0(data-aos="fade-right") En conclusión, el diseño <em>web responsive</em> constituye una estrategia técnica y comunicativa indispensable en el entorno digital actual. Garantiza adaptabilidad, mejora el posicionamiento en buscadores y optimiza la experiencia del usuario en un contexto donde el acceso móvil predomina.
+      p.mb-0(data-aos="fade-right") En conclusión, el diseño web <em>responsive</em> constituye una estrategia técnica y comunicativa indispensable en el entorno digital actual. Garantiza adaptabilidad, mejora el posicionamiento en buscadores y optimiza la experiencia del usuario en un contexto donde el acceso móvil predomina.
 
 </template>
 <script>
