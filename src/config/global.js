@@ -85,7 +85,7 @@ export default {
           {
             numero: '2.5',
             titulo:
-              'Tecnologías y Lenguajes utilizados en el <em>frontend</em>',
+              'Tecnologías y lenguajes utilizados en el <em>frontend</em>',
             hash: 't_2_5',
           },
           {
@@ -256,7 +256,7 @@ export default {
       link: 'https://dle.rae.es',
     },
     {
-      referencia: 'Shum, Y. M. (2021). <i>Situación global mobile 2020.</i>.',
+      referencia: 'Shum, Y. M. (2021). <i>Situación global mobile 2020</i>.',
       link: 'https://yiminshum.com/mobile-movil-app-2020/',
     },
     {

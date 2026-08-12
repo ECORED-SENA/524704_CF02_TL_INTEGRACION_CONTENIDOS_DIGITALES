@@ -620,7 +620,8 @@ export default {
         },
         {
           id: 20,
-          texto: '¿Cuál es una ventaja principal del diseño web responsive?',
+          texto:
+            '¿Cuál es una ventaja principal del diseño web <i>responsive</i>?',
           imagen: '@/assets/actividad/imagen4.png',
           barajarRespuestas: true,
           opciones: [

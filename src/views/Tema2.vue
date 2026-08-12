@@ -237,7 +237,7 @@
             div(titulo="<em>FreeMind</em>")
               p.ms-5.mb-0 Aplicación de código abierto para la creación de mapas mentales y esquemas jerárquicos.
             div(titulo="<em>OmniGraffle</em>")
-              p.ms-5.mb-0 Programa para <em>macOS</em> especializado en diagramas, esquemas técnicos y estructuras visuales.
+              p.ms-5.mb-0 Programa para macOS especializado en diagramas, esquemas técnicos y estructuras visuales.
       p.mb-5(data-aos="fade-right") Estas herramientas permiten representar arquitecturas de información, flujos de navegación, estructuras organizativas y procesos técnicos mediante recursos gráficos estructurados.
       .titulo-con-imagen.mb-5(data-aos="fade-right")
         .titulo-con-imagen__fondo
@@ -298,7 +298,7 @@
       p.mb-0(data-aos="fade-right") Asimismo, en la maquetación web es fundamental considerar la interfaz gráfica de usuario o <em>GUI (Graphical User Interface)</em>, entendida como el entorno visual mediante el cual el usuario interactúa con el sistema. La <em>GUI</em> integra imágenes, iconos, botones y demás objetos gráficos que permiten acceder a funcionalidades y comprender la información presentada en pantalla.
       separador
       #t_2_5.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-        h2 2.5 Tecnologías y Lenguajes utilizados en el #[i frontend]
+        h2 2.5 Tecnologías y lenguajes utilizados en el #[i frontend]
       p.mb-5(data-aos="fade-right") Para introducir las principales tecnologías y lenguajes empleados en el desarrollo web, es necesario definir primero el #[i frontend] como una parte fundamental de este proceso.
       .titulo-con-imagen.mb-5(data-aos="fade-right")
         .titulo-con-imagen__fondo
@@ -613,42 +613,13 @@ export default {
   data: () => ({
     // variables de vue
   }),
-  watch: {
-    // Escucha el cambio de sección desde el menú lateral
-    '$route.hash'() {
-      this.scrollToElement()
-    },
-  },
   mounted() {
-    this.scrollToElement()
+    this.$nextTick(() => {
+      this.$aosRefresh()
+    })
   },
   updated() {
     this.$aosRefresh()
-  },
-  methods: {
-    scrollToElement() {
-      this.$nextTick(() => {
-        this.$aosRefresh()
-        // 500ms da tiempo suficiente a que la animación de cierre del menú lateral
-        // termine y libere el ancho/alto real del contenedor
-        setTimeout(() => {
-          const hash = this.$route.hash || window.location.hash
-          if (!hash) return
-          const element = document.querySelector(hash)
-          if (element) {
-            // Altura de la barra superior fija del SENA
-            const headerOffset = 100
-            const elementPosition = element.getBoundingClientRect().top
-            const offsetPosition =
-              elementPosition + window.pageYOffset - headerOffset
-            window.scrollTo({
-              top: offsetPosition,
-              behavior: 'smooth',
-            })
-          }
-        }, 500)
-      })
-    },
   },
 }
 </script>

@@ -554,7 +554,7 @@
               h2.text-center <em>DJ Audio Editor</em>
               p.text-center Herramienta de uso sencillo que permite añadir efectos, grabar desde distintas fuentes y exportar en varios formatos.
           div.bg-color-6.p-3.d-inline-flex.tarjeta.mb-3
-            h4.mb-0 Programas para Windows y macOS X
+            h4.mb-0 Programas para Windows y macOS
           p.mb-5(data-aos="fade-left") Estos programas amplían su compatibilidad a sistemas operativos de Apple, lo que facilita el trabajo en entornos multiplataforma.
           SlyderF.mb-5(columnas="col-lg-6 col-xl-4")
             .tarjeta.bg-color-12.p-4
@@ -837,42 +837,13 @@ export default {
   data: () => ({
     // variables de vue
   }),
-  watch: {
-    // Escucha el cambio de sección desde el menú lateral
-    '$route.hash'() {
-      this.scrollToElement()
-    },
-  },
   mounted() {
-    this.scrollToElement()
+    this.$nextTick(() => {
+      this.$aosRefresh()
+    })
   },
   updated() {
     this.$aosRefresh()
-  },
-  methods: {
-    scrollToElement() {
-      this.$nextTick(() => {
-        this.$aosRefresh()
-        // 500ms da tiempo suficiente a que la animación de cierre del menú lateral
-        // termine y libere el ancho/alto real del contenedor
-        setTimeout(() => {
-          const hash = this.$route.hash || window.location.hash
-          if (!hash) return
-          const element = document.querySelector(hash)
-          if (element) {
-            // Altura de la barra superior fija del SENA
-            const headerOffset = 100
-            const elementPosition = element.getBoundingClientRect().top
-            const offsetPosition =
-              elementPosition + window.pageYOffset - headerOffset
-            window.scrollTo({
-              top: offsetPosition,
-              behavior: 'smooth',
-            })
-          }
-        }, 500)
-      })
-    },
   },
 }
 </script>
